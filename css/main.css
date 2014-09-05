@@ -1,0 +1,17 @@
+body {
+
+}
+
+a {
+	text-decoration:none;
+	color: red;
+}
+
+a:hover {
+	color: green;
+	text-decoration: underline;	
+}
+
+img {
+	
+}
