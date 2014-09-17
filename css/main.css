@@ -27,11 +27,11 @@ body {
 	text-decoration:none;
 	color: white;
 	text-transform:uppercase;
+	display:block;
 }
 
 #nav > ul > li > a:hover {
 	color:#45cdea;
-	display:block;
 }
 
 a:hover {
