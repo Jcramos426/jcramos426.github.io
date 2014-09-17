@@ -5,7 +5,7 @@ body {
 #nav {
 	display:block;
 	background-color:#333333;
-	padding:15px;
+	padding:10px;
 	margin:0 0 15px;
 }
 
@@ -29,7 +29,12 @@ body {
 	text-transform:uppercase;
 }
 
-a:hover, #nav > ul > li > a:hover {
+#nav > ul > li > a:hover {
+	color:#45cdea;
+	display:block;
+}
+
+a:hover {
 	color:#45cdea;
 	text-decoration: underline;	
 }
