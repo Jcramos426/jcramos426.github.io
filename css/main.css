@@ -1,17 +1,56 @@
 body {
 	font-family: 'Montserrat', sans-serif;
+<<<<<<< HEAD
+=======
+	margin:0 auto;
 }
 
-a {
+#container {
+	margin:0 20px;
+>>>>>>> FETCH_HEAD
+}
+
+#nav {
+	display:block;
+	background-color:#333333;
+	padding:8px;
+	margin:0 0 15px;
+}
+
+#nav ul {
+	text-align: center;
+}
+
+#nav ul li {
+	margin-left: 3em;
+	display:inline;
+	border-style:none;
+}
+
+#nav ul li:first-child {
+	text-align:left;
+}
+
+#nav > ul > li > a {
 	text-decoration:none;
-	color: red;
+	color: white;
+	text-transform:uppercase;
+	display:inline-block;
+}
+
+#nav > ul > li > a:hover {
+	color:#45cdea;
 }
 
 a:hover {
-	color: green;
+	color:#45cdea;
 	text-decoration: underline;	
 }
 
+a {
+	color: #f2047c;
+}
+
 img {
-	
+	text-align:center;
 }
