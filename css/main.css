@@ -3,6 +3,10 @@ body {
 	margin:0 auto;
 }
 
+#container {
+	margin:0 20px;
+}
+
 #nav {
 	display:block;
 	background-color:#333333;
