@@ -8,8 +8,9 @@ body {
 }
 
 #nav ul {
-	display:inline-block;
+	display:inline;
 	text-align: right;
+	border-style:none;
 }
 
 #nav ul li {
@@ -20,7 +21,7 @@ body {
 	text-align:left;
 }
 
-a {
+#nav > ul > li > a {
 	text-decoration:none;
 	color: white;
 }
@@ -28,6 +29,10 @@ a {
 a:hover {
 	color:#45cdea;
 	text-decoration: underline;	
+}
+
+a {
+	color: #f2047c;
 }
 
 img {
