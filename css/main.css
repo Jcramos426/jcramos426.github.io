@@ -36,6 +36,10 @@ body {
 	display:inline-block;
 }
 
+#active {
+	color:#45cdea;
+}
+
 #nav > ul > li > a:hover {
 	color:#45cdea;
 }
