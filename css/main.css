@@ -55,5 +55,5 @@ img {
 }
 
 #container a {
-	display:table;
+	display:block;
 }
