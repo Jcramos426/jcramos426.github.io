@@ -8,13 +8,13 @@ body {
 }
 
 #nav ul {
-	display:inline;
 	text-align: right;
-	border-style:none;
 }
 
 #nav ul li {
 	margin-left: 20px;
+	display:inline;
+	border-style:none;
 }
 
 #nav ul li:first-child {
