@@ -4,56 +4,52 @@ body {
 	text-align: center;
 }
 
-#container {
-	margin:0 20px;
+ul, ul li {
+    display: inline-block;
+    height: 1000px;
 }
-
-#nav {
-	display:block;
-	background-color:#333333;
-	padding:8px;
-	margin:0 0 15px;
+    
+ul li {
+   position: relative;
+   overflow: hidden;
+   width: 100px;
+   margin-left: -15px;
+   background: blue;
+   -webkit-transform: skewX(-10deg);
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 }
-
-#nav ul {
-	text-align: center;
+    
+ul li:first-child {
+   margin-left: 0;
 }
-
-#nav ul li {
-	margin-left: 3em;
-	display:inline;
-	border-style:none;
+    
+#nav-01 {
+   z-index: 3;
 }
-
-#nav > ul > li > a {
-	text-decoration:none;
-	color: white;
-	text-transform:uppercase;
-	display:inline-block;
+    
+#nav-02 {
+   z-index: 2;
 }
-
-#nav > ul > li > a#active {
-	color:#45cdea;
+    
+#nav-03 {
+   z-index: 1;
 }
-
-#nav > ul > li > a:hover {
-	color:#45cdea;
+    
+ul a {
+   display: block;
+   position: relative;
+   overflow: hidden;
+   width: 600%;
+   height: 100%;
+   margin-left: -300%;
+   color: white;
+   background: url(http://placekitten.com/1000/1000) center center;
+   background-size: cover;
+   -webkit-transform: skewX(10deg);
 }
-
-a:hover {
-	color:#45cdea;
-	text-decoration: underline;	
-}
-
-a {
-	color: #f2047c;
-}
-
-img {
-	display: block;
-	margin:0 auto;
-}
-
-#container a {
-	display:block;
+    
+ul a span {
+   position: absolute;
+   top: 46%;
+   left: 52%;
 }
