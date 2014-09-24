@@ -1,12 +1,13 @@
+@font-face{
+	font-family:CooperHewitt;
+	src: url(font/CooperHewitt-Medium.woff);
+}
+
 body {
 	margin:0 auto;
 	text-align: center;
 	background: #383838 url(../img/az-subtle.png) repeat;
-}
-
-@font-face{
 	font-family:CooperHewitt;
-	src: url(font/CooperHewitt-Medium.woff);
 }
 
 ul#nav, ul#nav li {
