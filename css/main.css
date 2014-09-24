@@ -26,6 +26,10 @@ ul#nav li {
    -webkit-transform: skewX(-10deg);
    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 }
+
+ul#nav li:last-child {
+	box-shadow: none;
+}
     
 ul#nav li:first-child {
    margin-left: 0;
