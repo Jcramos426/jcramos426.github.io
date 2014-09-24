@@ -5,12 +5,12 @@ body {
 	background: #383838 url('../../img/az-subtle.png') repeat;
 }
 
-ul, ul li {
+ul.nav, ul.nav li {
     display: inline-block;
     height: 1000px;
 }
     
-ul li {
+ul.nav li {
    position: relative;
    overflow: hidden;
    width: 100px;
@@ -22,7 +22,7 @@ ul li {
    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 }
     
-ul li:first-child {
+ul.nav li:first-child {
    margin-left: 0;
 }
     
@@ -38,7 +38,7 @@ ul li:first-child {
    z-index: 1;
 }
     
-ul a {
+ul.nav a {
    display: block;
    position: relative;
    overflow: hidden;
@@ -53,7 +53,7 @@ ul a {
    -webkit-transform: skewX(10deg);
 }
     
-ul a span {
+ul.nav a span {
    position: absolute;
    top: 46%;
    left: 52%;
