@@ -2,8 +2,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	margin:0 auto;
 	text-align: center;
-	background: #383838;
-	background-color: #383838 url("http://www.transparenttextures.com/patterns/az-subtle.png");
+	background: #383838 url('../../img/az-subtle.png') repeat;
 }
 
 ul, ul li {
