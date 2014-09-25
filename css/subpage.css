@@ -1,0 +1,28 @@
+.submenu {
+	top:35%;
+	left: 50%;
+}
+
+.submenu-img:hover {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray; /* IE 6-9 */
+}
+
+div#main-container {
+	position: absolute;
+	left: 55%;
+	top:0;
+	padding: 25px;
+	background: white;
+	color: black;
+	width:50%;
+	height: 680px;
+	vertical-align: middle;
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	z-index: 4;
+}
