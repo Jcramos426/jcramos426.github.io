@@ -105,7 +105,7 @@ ul#nav li:first-child {
    z-index: 1;
 }
     
-ul#nav {
+ul#nav a.nav-link {
    display: block;
    position: relative;
    overflow: hidden;
@@ -125,7 +125,7 @@ li#nav-01, li#nav-02, li#nav-03, li#nav-04 {
 
 a.nav-link {
 	text-transform: uppercase;
-	position: absolute;
+	position: absolute !important; 
 	top:45%;
 	left: 10%;
 	-moz-transform:skew(20deg);
