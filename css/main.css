@@ -123,11 +123,14 @@ span {
 	text-transform: uppercase;
 	position: absolute !important; 
 	top:45%;
-	left: 10%;
+	left: 53%;
 	-moz-transform:skew(20deg);
 	-webkit-transform: skew(20deg);
 	-o-transform:skew(20deg);
 	font-size: 27px;
+	z-index: 5;
+	color: black;
+	text-align: left;
 }
 
 .panel-img {
