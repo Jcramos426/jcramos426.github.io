@@ -32,4 +32,5 @@ div#main-container > h1, p {
 	-moz-transform: skew(20deg);
 	-o-transform: skew(20deg);
 	top:35%;
+	margin: 20px;
 }
