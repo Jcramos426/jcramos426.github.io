@@ -33,6 +33,7 @@ a:hover {
 
 /* Home Panel */
 div.home-base {
+	position: absolute;
 	right:20%;
 	max-height: 100%;
 	display:inline-block;
@@ -53,7 +54,7 @@ div.home-panel {
 }
 
 div.home-container {
-	margin: 2em 1em 0 0;
+	margin: 2em 0 0 0;
 	-webkit-transform: skew(20deg);
 	-moz-transform: skew(20deg);
 	-o-transform: skew(20deg);
@@ -61,7 +62,7 @@ div.home-container {
 
 /* Middle */
 ul#nav {
-	margin-top:0;
+	margin:0 auto;
 }
 
 ul#nav, ul#nav li {
