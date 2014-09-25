@@ -10,6 +10,19 @@ body {
 	font-family:CooperHewitt;
 }
 
+/* Home Panel */
+#home-base {
+	margin: 0 auto;
+	max-height: 100%;
+}
+
+#home-shape {
+	width:40%;
+	height: 80%;
+	-webkit-transform:skew(-45deg);
+	-moz-transform:skew(-45deg);
+	-o-transform:skew(-45deg);
+}
 ul#nav, ul#nav li {
     display: inline-block;
     height: 1000px;
@@ -21,9 +34,9 @@ ul#nav li {
    width: 100px;
    margin-left: -15px;
    background: blue;
-   -ms-transform: skewX(10deg);
-   -moz-transform: skewX(-10deg);
-   -webkit-transform: skewX(-10deg);
+   -ms-transform: skewX(45deg);
+   -moz-transform: skewX(45deg);
+   -webkit-transform: skewX(45deg);
    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 }
 
@@ -57,9 +70,9 @@ ul#nav a {
    color: white;
    background: url(http://placekitten.com/1000/1000) center center;
    background-size: cover;
-   -ms-transform: skewX(10deg);
-   -moz-transform: skewX(-10deg);
-   -webkit-transform: skewX(10deg);
+   -ms-transform: skewX(45deg);
+   -moz-transform: skewX(-45deg);
+   -webkit-transform: skewX(45deg);
 }
     
 ul#nav a span {
