@@ -21,8 +21,8 @@ div#main-container {
 	width:50%;
 	height: 680px;
 	vertical-align: middle;
-	-webkit-transform: skew(20deg);
-	-moz-transform: skew(20deg);
-	-o-transform: skew(20deg);
+	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
 	z-index: 4;
 }
