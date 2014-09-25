@@ -142,6 +142,14 @@ span {
 	position: absolute;
 }
 
+.panel-img:hover {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray; /* IE 6-9 */
+}
+   
 /* Exit Base */
 #exit-base {
 	display: inline-block;
