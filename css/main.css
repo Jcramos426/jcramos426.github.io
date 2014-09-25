@@ -50,7 +50,8 @@ div.home-panel {
 	-moz-transform: skew(-20deg);
 	-o-transform: skew(-20deg);
 	background:#383838;
-	box-shadow: 5px 5px 5px rgba(0,0,0,.5); 
+	box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+	z-index: 4; 
 }
 
 /* Middle */
