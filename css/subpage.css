@@ -32,5 +32,9 @@ div#content-here {
 	-moz-transform: skew(20deg);
 	-o-transform: skew(20deg);
 	top:35%;
-	margin: 20px;
+	margin: 95px;
+}
+
+div#content-here > h2 {
+	line-height:10px;
 }
