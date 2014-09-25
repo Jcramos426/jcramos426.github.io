@@ -26,3 +26,10 @@ div#main-container {
 	-o-transform: skew(-20deg);
 	z-index: 4;
 }
+
+div#main-container > h1, p {
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	top:35%;
+}
