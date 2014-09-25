@@ -154,14 +154,14 @@ span {
 #exit-base {
 	display: inline-block;
 	position: relative;
-	top: 62%;
-	right: 32%;
 }
 
 #sm {
 	position:absolute;
 	display: inline;
 	vertical-align: bottom;
+	top: 62%;
+	right: 32%;
 }
 
 .sm-icon {
