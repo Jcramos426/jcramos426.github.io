@@ -100,10 +100,12 @@ ul#nav a:nav-link {
    -webkit-transform: skewX(-20deg);
 }
 
-ul#nav > li > a:nav-link {
-   position: absolute;
-   top: 46%;
-   left: 52%;
+li#nav-01, li#nav-02, li#nav-03, li#nav-04 {
+	display: table;
+}
+
+a:nav-link {
+	display: block;
 }
 
 /* Exit Base */
