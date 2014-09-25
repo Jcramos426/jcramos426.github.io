@@ -44,6 +44,10 @@ div#home-base {
 }
 
 /* Middle */
+ul#nav {
+	margin-top:0;
+}
+
 ul#nav, ul#nav li {
     display: inline-block;
     height: 680px;
