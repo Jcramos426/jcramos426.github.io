@@ -34,7 +34,7 @@ a:hover {
 div#home-base {
 	right:5%;
 	max-height: 100%;
-	display: inline;
+	display:table;
 	text-align: right;
 	width:40%;
 	height: 80%;
