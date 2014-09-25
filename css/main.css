@@ -38,12 +38,13 @@ div#home-base {
 	text-align: right;
 	width:40%;
 	height: 80%;
+	margin: 5em 2em 0;
 }
 
 /* Middle */
 ul#nav, ul#nav li {
-    display: inline;
-    height: 100%;
+    display: inline-block;
+    height: 680px;
 }
     
 ul#nav li {
