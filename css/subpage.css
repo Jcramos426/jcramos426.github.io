@@ -13,7 +13,7 @@
 
 div#main-container {
 	position: absolute;
-	left: 55%;
+	left: 39%;
 	top:0;
 	padding: 25px;
 	background: white;
@@ -24,7 +24,7 @@ div#main-container {
 	-webkit-transform: skew(-20deg);
 	-moz-transform: skew(-20deg);
 	-o-transform: skew(-20deg);
-	z-index: 4;
+	z-index: 1;
 }
 
 div#main-container > h1, p {
