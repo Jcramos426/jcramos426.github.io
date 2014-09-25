@@ -56,7 +56,7 @@ ul#nav, ul#nav li {
 ul#nav li {
    position: relative;
    overflow: hidden;
-   width: 100px;
+   width: 150px;
    margin-left: -15px;
    background: blue;
    -ms-transform: skewX(-20deg);
