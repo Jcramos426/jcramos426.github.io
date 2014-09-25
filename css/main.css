@@ -62,6 +62,7 @@ ul#nav li {
    -ms-transform: skewX(-20deg);
    -moz-transform: skewX(-20deg);
    -webkit-transform: skewX(-20deg);
+   background: url('http://placekitten.com/680/680') repeat center;
    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 }
 
@@ -93,7 +94,6 @@ ul#nav a:nav-link {
    height: 100%;
    margin-left: -300%;
    color: white;
-   background: url('http://placekitten.com/680/680') repeat center;
    background-size: cover;
    -ms-transform: skewX(-20deg);
    -moz-transform: skewX(20deg);
