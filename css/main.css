@@ -81,7 +81,6 @@ ul#nav li {
    -ms-transform: skewX(-20deg);
    -moz-transform: skewX(-20deg);
    -webkit-transform: skewX(-20deg);
-   background: url('http://placekitten.com/680/680') repeat center;
    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 }
 
@@ -120,7 +119,7 @@ li#nav-01, li#nav-02, li#nav-03, li#nav-04 {
 	display: table;
 }
 
-a.nav-link {
+span {
 	text-transform: uppercase;
 	position: absolute !important; 
 	top:45%;
