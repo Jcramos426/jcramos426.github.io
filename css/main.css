@@ -68,6 +68,8 @@ ul#nav {
 ul#nav, ul#nav li {
     display: inline-block;
     height: 680px;
+    position: absolute;
+    right: 23%;
 }
     
 ul#nav li {
