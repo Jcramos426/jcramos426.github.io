@@ -119,3 +119,7 @@ ul#nav a:nav-link span {
 .sm-icon {
 	margin-right: 20px;
 }
+
+img.sm-icon {
+	display: block;
+}
