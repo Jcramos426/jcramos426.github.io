@@ -27,7 +27,7 @@ div#main-container {
 	z-index: 1;
 }
 
-div#main-container > h1, p {
+div#content-here {
 	-webkit-transform: skew(20deg);
 	-moz-transform: skew(20deg);
 	-o-transform: skew(20deg);
