@@ -134,8 +134,9 @@ span {
 	-moz-transform: skew(20deg);
 	-webkit-transform: skew(20deg);
 	-o-transform:skew(20deg);
-	left: 2em;
-	bottom: 5em;
+	left: 13em;
+	bottom: 0;
+	position: absolute;
 }
 
 /* Exit Base */
