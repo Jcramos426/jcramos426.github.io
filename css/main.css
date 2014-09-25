@@ -99,8 +99,8 @@ ul#nav a:nav-link {
    -moz-transform: skewX(20deg);
    -webkit-transform: skewX(-20deg);
 }
-    
-ul#nav a:nav-link span {
+
+ul#nav > li > a:nav-link {
    position: absolute;
    top: 46%;
    left: 52%;
