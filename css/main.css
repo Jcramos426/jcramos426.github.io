@@ -154,25 +154,14 @@ span {
 #exit-base {
 	display: block;
 	position: relative;
-	-o-transform:skew(-160deg);
-	-moz-transform:skew(-160deg);
-	-webkit-transform:skew(-160deg);
-	height:680px;
 }
 
 #sm {
-	-o-transform:skew(160deg);
-	-moz-transform:skew(160deg);
-	-webkit-transform:skew(160deg);
 	position:absolute;
 	display: block;
 	vertical-align: bottom;
 	top: 62%;
 	right: 32%;
-}
-
-.sm-icon {
-	margin-right: 20px;
 }
 
 img.sm-icon {
