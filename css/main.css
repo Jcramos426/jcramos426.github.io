@@ -63,7 +63,6 @@ div.home-container {
 /* Middle */
 ul#nav {
 	margin:0 auto;
-	position: absolute;
 }
 
 ul#nav, ul#nav li {
