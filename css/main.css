@@ -105,7 +105,7 @@ li#nav-01, li#nav-02, li#nav-03, li#nav-04 {
 }
 
 a:nav-link {
-	display: block;
+	display: table-cell;
 }
 
 /* Exit Base */
