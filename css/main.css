@@ -152,7 +152,7 @@ span {
    
 /* Exit Base */
 #exit-base {
-	display: block;
+	display: inline;
 	position: relative;
 }
 
