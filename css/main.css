@@ -48,7 +48,7 @@ div.home-panel {
 	-o-transform: skew(-20deg);
 	background:#383838;
 	box-shadow: 5px 5px 5px rgba(0,0,0,.5);
-	z-index: 4; 
+	z-index: 10; 
 }
 
 div.home-container {
@@ -153,12 +153,13 @@ span {
 /* Exit Base */
 #exit-base {
 	display: inline-block;
-	position: absolute;
+	position: relative;
 	top: 62%;
 	right: 32%;
 }
 
 #sm {
+	position:absolute;
 	display: inline;
 	vertical-align: bottom;
 }
