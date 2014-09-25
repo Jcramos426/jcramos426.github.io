@@ -33,8 +33,6 @@ a:hover {
 
 /* Home Panel */
 div.home-base {
-	position: absolute;
-	left:20%;
 	max-height: 100%;
 	display:inline-block;
 	text-align: right;
@@ -54,6 +52,8 @@ div.home-panel {
 }
 
 div.home-container {
+	left:20%;
+	position: absolute;
 	margin: 2em 0 0 0;
 	-webkit-transform: skew(20deg);
 	-moz-transform: skew(20deg);
