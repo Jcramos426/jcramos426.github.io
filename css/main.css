@@ -130,6 +130,9 @@ a:nav-link {
 /* Exit Base */
 #exit-base {
 	display: inline-block;
+	position: absolute;
+	top: 82%;
+	right: 32%;
 }
 
 #sm {
