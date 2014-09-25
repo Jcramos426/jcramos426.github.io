@@ -152,7 +152,7 @@ span {
    
 /* Exit Base */
 #exit-base {
-	display: inline-block;
+	display: block;
 	position: relative;
 	-o-transform:skew(-160deg);
 	-moz-transform:skew(-160deg);
