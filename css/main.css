@@ -93,7 +93,7 @@ ul#nav a:nav-link {
    height: 100%;
    margin-left: -300%;
    color: white;
-   background: url(http://placekitten.com/680/1000) center center;
+   background: url(http://placekitten.com/680/680) center center;
    background-size: cover;
    -ms-transform: skewX(-20deg);
    -moz-transform: skewX(20deg);
