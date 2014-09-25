@@ -40,7 +40,7 @@ div.home-base {
 	width:40%;
 	height: 680px;
 	vertical-align: top;
-	margin: 2em 0 0 0;
+	margin: 0;
 }
 
 div.home-panel {
@@ -52,7 +52,8 @@ div.home-panel {
 	z-index: 4; 
 }
 
-div.home-base > a, div.home-base > h2 {
+div.home-container {
+	margin: 2em 1em 0 0;
 	-webkit-transform: skew(20deg);
 	-moz-transform: skew(20deg);
 	-o-transform: skew(20deg);
