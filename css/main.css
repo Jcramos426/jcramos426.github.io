@@ -152,13 +152,13 @@ span {
    
 /* Exit Base */
 #exit-base {
-	display: inline-block;
+	display: block;
 	position: relative;
 }
 
 #sm {
 	position:absolute;
-	display: inline;
+	display: block;
 	vertical-align: bottom;
 	top: 62%;
 	right: 32%;
