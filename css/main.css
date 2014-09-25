@@ -1,6 +1,6 @@
 @font-face{
 	font-family:CooperHewitt;
-	src: url(font/CooperHewitt-Medium.woff);
+	src: url(font/CooperHewitt-Thin.woff);
 }
 
 body {
@@ -8,11 +8,6 @@ body {
 	background: #383838;
 	font-family:CooperHewitt;
 	color: white;
-}
-
-h1, h2, h3, h4, h5 {
-	font-family: CooperHewitt;
-	src: url(font/CooperHewitt-Thin.woff);
 }
 
 a:link {
