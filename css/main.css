@@ -154,9 +154,16 @@ span {
 #exit-base {
 	display: inline-block;
 	position: relative;
+	-o-transform:skew(-160deg);
+	-moz-transform:skew(-160deg);
+	-webkit-transform:skew(-160deg);
+	height:680px;
 }
 
 #sm {
+	-o-transform:skew(160deg);
+	-moz-transform:skew(160deg);
+	-webkit-transform:skew(160deg);
 	position:absolute;
 	display: block;
 	vertical-align: bottom;
