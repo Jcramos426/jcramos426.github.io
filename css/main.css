@@ -11,7 +11,8 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-	font-weight:Thin;
+	font-family: CooperHewitt;
+	src: url(font-CooperHewitt-Thin.woff);
 }
 
 a:link {
@@ -35,9 +36,6 @@ div#home-base {
 	max-height: 100%;
 	display: inline;
 	text-align: right;
-}
-
-div#home-shape {
 	width:40%;
 	height: 80%;
 	-webkit-transform:skew(-45deg);
