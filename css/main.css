@@ -32,7 +32,7 @@ a:hover {
 }
 
 /* Home Panel */
-div#home-base {
+div.home-base {
 	right:20%;
 	max-height: 100%;
 	display:inline-block;
@@ -41,6 +41,16 @@ div#home-base {
 	height: 80%;
 	vertical-align: top;
 	margin: 2em 0 0 0;
+}
+
+div.home-panel {
+	width:40%;
+	height: 80%;
+	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	background:#383838;
+	box-shadow: 5px 5px 5px rgba(0,0,0,.5); 
 }
 
 /* Middle */
