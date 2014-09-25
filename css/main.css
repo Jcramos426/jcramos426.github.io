@@ -105,7 +105,7 @@ ul#nav li:first-child {
    z-index: 1;
 }
     
-ul#nav a.nav-link {
+ul#nav {
    display: block;
    position: relative;
    overflow: hidden;
