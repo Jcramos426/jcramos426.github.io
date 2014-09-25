@@ -52,7 +52,7 @@ div.home-panel {
 }
 
 div.home-container {
-	left:20%;
+	left:60%;
 	position: absolute;
 	margin: 2em 0 0 0;
 	-webkit-transform: skew(20deg);
