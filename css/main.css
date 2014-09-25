@@ -47,7 +47,7 @@ div.home-panel {
 	-moz-transform: skew(-20deg);
 	-o-transform: skew(-20deg);
 	background:#383838;
-	box-shadow: 5px 0 5px rgba(0,0,0,.5);
+	box-shadow: 5px 5px 5px rgba(0,0,0,.5);
 	z-index: 4; 
 }
 
@@ -63,9 +63,6 @@ div.home-container {
 /* Middle */
 ul#nav {
 	margin:0 auto;
-   -ms-transform: skewX(-20deg);
-   -moz-transform: skewX(20deg);
-   -webkit-transform: skewX(-20deg);
 }
 
 ul#nav, ul#nav li {
