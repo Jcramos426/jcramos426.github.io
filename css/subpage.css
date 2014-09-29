@@ -1,3 +1,22 @@
+/* Left nav menu */
+nav {
+	display: block;
+	margin: 10px;
+}
+
+ul {
+	display: block;
+}
+
+li { 
+	list-style-type: none;
+}
+
+li.active {
+	color: #FF47D1;
+	font-weight: bold;
+}
+/* Section's Panels */
 .submenu {
 	top:35%;
 	left: 50%;
