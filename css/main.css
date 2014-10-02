@@ -63,6 +63,8 @@ div.home-container {
 /* Middle */
 ul#nav {
 	margin:0 auto;
+  -webkit-transition: all 600ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition:         all 600ms cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
 ul#nav, ul#nav li {
