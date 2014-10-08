@@ -138,7 +138,7 @@ ul#nav a.nav-link {
 }
 
 li#nav-01, li#nav-02, li#nav-03, li#nav-04 {
-	display: table;
+	display: inline;
 }
 
 span {
@@ -164,7 +164,7 @@ span {
 	position: absolute;
 }
 
-.panel-img:hover {
+ul#nav li:hover, .panel-img:hover {
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
 	-ms-filter: grayscale(100%);
