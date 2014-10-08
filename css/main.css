@@ -64,6 +64,20 @@ div.home-container {
 }
 
 /* Middle */
+div.main {
+	position: absolute;
+	margin: 0 auto;
+	display: block;
+	max-width: 45%;
+	min-width: 30%;
+}
+
+div.container {
+	position: relative;
+	margin: 0 auto;
+	display: block;
+}
+
 ul#nav {
 	margin:0 auto;
 }
