@@ -153,7 +153,10 @@ span {
 /* Exit Base */
 #exit-base {
 	display: block;
-	position: relative;
+	position: absolute;
+	transform: skew(-20deg);
+	right: 16%;
+	bottom: 15%;
 }
 
 #sm {
@@ -162,6 +165,7 @@ span {
 	vertical-align: bottom;
 	top: 52%;
 	right: 32%;
+	transform: skew(20deg);
 }
 
 img.sm-icon {
