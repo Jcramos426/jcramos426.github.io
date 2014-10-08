@@ -49,15 +49,18 @@ div.home-panel {
 	background:#383838;
 	box-shadow: 5px 5px 5px rgba(0,0,0,.5);
 	z-index: 10; 
+	position: relative;
+	min-width: 400px;
 }
 
 div.home-container {
-	left:60%;
-	position: absolute;
-	margin: 2em 0 0 0;
+	left:5%;
+	position: relative;
+	margin: 2em 5em 0 0;
 	-webkit-transform: skew(20deg);
 	-moz-transform: skew(20deg);
 	-o-transform: skew(20deg);
+	min-width: 275px;
 }
 
 /* Middle */
