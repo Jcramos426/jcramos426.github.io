@@ -61,6 +61,7 @@ div.home-container {
 	-moz-transform: skew(20deg);
 	-o-transform: skew(20deg);
 	min-width: 275px;
+	width:650px;
 }
 
 /* Middle */
