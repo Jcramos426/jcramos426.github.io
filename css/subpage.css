@@ -32,7 +32,7 @@ li#active {
 
 div#main-container {
 	position: absolute;
-	left: 39%;
+	left: 30%;
 	top:0;
 	padding: 25px;
 	background: white;
@@ -44,6 +44,9 @@ div#main-container {
 	-moz-transform: skew(-20deg);
 	-o-transform: skew(-20deg);
 	z-index: 1;
+	box-sizing:border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
 
 div#content-here {
