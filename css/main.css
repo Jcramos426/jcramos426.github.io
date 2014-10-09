@@ -28,13 +28,8 @@ a:hover {
 
 /* Home Panel */
 div.home-base {
-	max-height: 100%;
-	display:inline-block;
 	text-align: right;
-	width:40%;
 	height: 680px;
-	vertical-align: top;
-	margin: 0;
 }
 
 div.home-panel {
@@ -44,10 +39,12 @@ div.home-panel {
 	background:#383838;
 	box-shadow: 5px 5px 5px rgba(0,0,0,.5);
 	z-index: 10; 
-	position: relative;
+	position: absolute;
 	min-width: 250px;
 	width: 35%;
 	padding-right: 15px;
+	top:0;
+	left:-5%;
 }
 
 div.home-container {
