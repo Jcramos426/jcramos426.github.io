@@ -39,23 +39,20 @@ div.home-panel {
 	background:#383838;
 	box-shadow: 5px 5px 5px rgba(0,0,0,.5);
 	z-index: 10; 
-	position: absolute;
 	min-width: 250px;
-	width: 35%;
+	width: 38%;
 	padding-right: 15px;
-	top:0;
-	left:-5%;
 }
 
 div.home-container {
-	left:-5%;
-	position: absolute;
-	margin: 2em 5em 0 0;
+	position: relative;
 	-webkit-transform: skew(20deg);
 	-moz-transform: skew(20deg);
 	-o-transform: skew(20deg);
 	min-width: 275px;
 	width:650px;
+	padding: 2em;
+	display: block;
 }
 
 /* Middle */
@@ -169,8 +166,8 @@ ul#nav li:hover, .panel-img:hover {
 	display: block;
 	position: absolute;
 	transform: skew(-20deg);
-	right: 16%;
-	bottom: 15%;
+	right: 26%;
+	bottom: 40%;
 }
 
 #sm {
