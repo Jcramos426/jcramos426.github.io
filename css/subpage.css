@@ -56,6 +56,14 @@ div#content-here {
 	margin: 95px;
 }
 
+div#text-here {
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	margin:0;
+	padding: 20% 15% 0 25%;
+}
+
 div#content-here > h1 {
 	line-height:60px;
 }
