@@ -13,7 +13,7 @@ li {
 }
 
 li#active {
-	color: #FF47D1;
+	color: white;
 	font-weight: bold;
 }
 /* Section's Panels */
