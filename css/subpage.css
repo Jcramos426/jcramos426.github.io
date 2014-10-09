@@ -27,7 +27,6 @@ li#active {
 	-moz-filter: grayscale(100%);
 	-ms-filter: grayscale(100%);
 	filter: grayscale(100%);
-	filter: gray; /* IE 6-9 */
 }
 
 div#main-container {
