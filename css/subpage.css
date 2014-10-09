@@ -12,7 +12,7 @@ li {
 	list-style-type: none;
 }
 
-li#active {
+li#active > a {
 	color: white;
 	font-weight: bold;
 }
