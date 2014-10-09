@@ -48,8 +48,8 @@ div.home-panel {
 }
 
 div.home-container {
-	left:5%;
-	position: relative;
+	left:-5%;
+	position: absolute;
 	margin: 2em 5em 0 0;
 	-webkit-transform: skew(20deg);
 	-moz-transform: skew(20deg);
