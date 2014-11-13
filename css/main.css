@@ -162,7 +162,7 @@ ul#nav li:hover, .panel-img:hover {
 }
    
 /* Exit Base */
-#exit-base {
+.exit-base {
 	display: block;
 	position: absolute;
 	transform: skew(-20deg);
@@ -170,7 +170,7 @@ ul#nav li:hover, .panel-img:hover {
 	bottom: 40%;
 }
 
-#sm {
+.sm {
 	position:absolute;
 	display: block;
 	vertical-align: bottom;
