@@ -30,6 +30,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+li {
+	list-style: none;
+}
+
 /* Home Panel */
 
 div.home-panel {
@@ -50,7 +54,7 @@ div.home-container {
 	-moz-transform: skew(20deg);
 	-o-transform: skew(20deg);
 	max-width: 100%;
-	margin: 0 -26%;
+	margin: 0;
 	display: block;
 	padding: 7%;
 }
@@ -74,10 +78,6 @@ ul {
 	display: block;
 }
 
-li { 
-	list-style-type: none;
-}
-
 li#active > a {
 	color: white;
 	font-weight: bold;
@@ -92,7 +92,6 @@ div.main-container {
 	top: 0px;
 	background: none repeat scroll 0% 0% #FFF;
 	color: #000;
-	vertical-align: middle;
 	transform: skew(-20deg);
 	-webkit-transform: skew(-20deg);
 	-moz-transform: skew(-20deg);
@@ -100,18 +99,55 @@ div.main-container {
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	display: inline-block;
+	display: block;
 	height: 680px;
-	max-width: 50%;
+	max-width: 200%;
 }
 
 div.content-here {
 	-webkit-transform: skew(20deg);
 	-moz-transform: skew(20deg);
 	-o-transform: skew(20deg);
-	margin: 95px;
+	width: 100%;
 	display: block;
 }
+
+div.welcome {
+	display: inline-block;
+	width: 47%;
+	margin: 0;
+}
+
+ul.home-navigation {
+	display: block;
+	margin: 7% 0 0;
+	padding: 0;
+	width: 100%;
+}
+
+li.home-li {
+	display: inline-block;
+	width: 23%;
+}
+
+a.home-link {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+a.headshot-link {
+	display: inline-block;
+	width: 35%;
+}
+
+.headshot {
+	display: block;
+}
+
+
+
+/* Portfolio Pages */
 
 .grid {
 	display: inline-block;
@@ -122,16 +158,23 @@ div.content-here {
 	box-sizing: border-box;
 }
 
-.grid > li {
+.thumbnail {
 	display: inline-block;
-	transform: skew(-20deg);
-	-webkit-transform: skew(-20deg);
-	-moz-transform: skew(-20deg);
 	width: 100px;
 	height: 40px;
 	background: gray;
 }
 
-.headshot {
-	display: inline-block;
+.thumbnail-link {
+	transform: skew(-20deg);
+	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	width: 100px;
+}
+
+.thumbnail-image {
+	width: 100px;
+	transform: skew(20deg);
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
 }
