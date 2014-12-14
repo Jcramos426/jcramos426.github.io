@@ -64,97 +64,6 @@ img.sm-icon {
 	margin: 10px;
 }
 
-/* Middle */
-
-ul#nav {
-	margin:0 auto;
-}
-
-ul#nav, ul#nav li {
-    display: inline-block;
-    height: 680px;
-    position: absolute;
-    right: 23%;
-}
-    
-ul#nav li {
-   position: relative;
-   overflow: hidden;
-   width: 150px;
-   margin-left: -15px;
-   background: blue;
-   -ms-transform: skewX(-20deg);
-   -moz-transform: skewX(-20deg);
-   -webkit-transform: skewX(-20deg);
-   box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
-}
-
-ul#nav li:last-child {
-	box-shadow: none;
-}
-    
-ul#nav li:first-child {
-   margin-left: 0;
-}
-    
-#nav-01 {
-   z-index: 3;
-}
-    
-#nav-02 {
-   z-index: 2;
-}
-    
-#nav-03 {
-   z-index: 1;
-}
-    
-ul#nav a.nav-link {
-   display: block;
-   position: relative;
-   overflow: hidden;
-   width: 600%;
-   height: 100%;
-   margin-left: -300%;
-   color: white;
-   background-size: cover;
-}
-
-li#nav-01, li#nav-02, li#nav-03, li#nav-04 {
-	display: inline;
-}
-
-span {
-	text-transform: uppercase;
-	position: absolute !important; 
-	top:45%;
-	left: 53%;
-	-moz-transform:skew(20deg);
-	-webkit-transform: skew(20deg);
-	-o-transform:skew(20deg);
-	font-size: 27px;
-	z-index: 5;
-	color: black;
-	text-align: left;
-}
-
-.panel-img {
-	-moz-transform: skew(20deg);
-	-webkit-transform: skew(20deg);
-	-o-transform:skew(20deg);
-	left: 13em;
-	bottom: 0;
-	position: absolute;
-}
-
-ul#nav li:hover, .panel-img:hover {
-	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	-ms-filter: grayscale(100%);
-	filter: grayscale(100%);
-	filter: gray; /* IE 6-9 */
-}
-
 /* Left nav menu */
 nav {
 	display: block;
@@ -173,18 +82,9 @@ li#active > a {
 	color: white;
 	font-weight: bold;
 }
-/* Section's Panels */
-.submenu {
-	top:35%;
-	left: 50%;
-}
 
-.submenu-img:hover {
-	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	-ms-filter: grayscale(100%);
-	filter: grayscale(100%);
-}
+
+/* Middle */
 
 div.main-container {
 	position: absolute;
@@ -210,8 +110,28 @@ div.content-here {
 	-moz-transform: skew(20deg);
 	-o-transform: skew(20deg);
 	margin: 95px;
+	display: block;
 }
 
-div.content-here > h1 {
-	line-height:60px;
+.grid {
+	display: inline-block;
+	width: 35%;
+	margin: 10%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.grid > li {
+	display: inline-block;
+	transform: skew(-20deg);
+	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	width: 100px;
+	height: 40px;
+	background: gray;
+}
+
+.headshot {
+	display: inline-block;
 }
