@@ -199,7 +199,9 @@ a.headshot-link {
 @media screen and (max-width:430px){
 
 body {
-	background: white;
+	background-color: white;
+	background-image: url(../img/home/about-panel.png);
+	background-repeat: no-repeat;
 	width: 100%;
 }
 
@@ -235,6 +237,20 @@ a.logo > img {
 	display: none;
 }
 
+div.home-container > .sm-link {
+	display: none;
+}
+
+div.home-panel {
+	height: auto;
+	margin: -5% 0 10%;
+}
+
+div.main-container {
+	position: static;
+	background: transparent;
+}
+
 div.welcome {
 	margin: 0;
 	display: block;
@@ -244,13 +260,6 @@ div.welcome {
 div.welcome > h1,
 div.welcome > p {
 	display: none;
-}
-
-ul.home-navigation {
-	margin: 0;
-	display: block;
-	padding: 0;
-	width: 100%;
 }
 
 li.home-li {
@@ -272,20 +281,7 @@ a.home-link:hover {
 	text-decoration: none;
 }
 
-div.home-container > .sm-link {
-	display: none;
-}
-
-div.main-container {
-	position: static;
-}
-
-div.home-panel,
-div.main-container {
-	height: auto;
-}
-
 a.headshot-link {
-	
+	display: none;
 }
 }
