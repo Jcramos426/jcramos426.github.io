@@ -4,38 +4,75 @@
 		<meta charset="utf-8">
 		<title>Jenae Ramos | About</title>
 		<link rel="stylesheet" href="../css/main.css" type="text/css" />
-		<link rel="stylesheet" href="../css/subpage.css" type="text/css" />
-  		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<script src="js/main.js"></script>
+		
+		<!-- Nobile Typeface -->
+		<link href='http://fonts.googleapis.com/css?family=Nobile:400,700italic' rel='stylesheet' type='text/css'>
+		
+		<!-- Lib Styles -->
+		<link rel="stylesheet" href="lib/vanillabox/theme/bitter/vanillabox.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="../lib/hamburgler/hamburgler.js"></script>
+		<link rel="stylesheet" href="../lib/hamburgler/hamburgler.css">
+
+
+		
 	</head>
 
-	<body>
-	  <div class="home-base home-panel">
-	  	<div class="home-container">
-		  	<a href="../index.html"><img src="../img_home.png" alt="img_home"/></a>
-		  	<h1><a href="../index.html">Jenae Ramos</a></h1>
-		  	<h2>Design</h2>
-		  		<nav>
-			      	<ul>
-			      		<li id="active"><a href="#">About</a></li>
-			      		<li><a href="../portfolio/index.html">Portfolio</a></li>
-			      		<li><a href="../inspiration/index.html">Inspiration</a></li>
-			      		<li><a href="../contact.html">Contact</a></li>
-			      	</ul>
-		  		</nav>
-	  	</div>
-	  </div>
-	  <div id="main-container">
-	  	<div id="text-here">
+	<body class="about">
+	
+		<div class="mobilenav">
+			
+			<li><a href="../index.html">Home</a></li>
+		
+			<li><a href="#">About Jenae</a></li>
+			
+			<li><a href="../portfolio/index.html">Jenae's Portfolio</a></li>
+			
+			<li><a href="../inspiration/index.html">Inspiration</a></li>
+			
+			<li><a href="../contact.html">Contact Me</a></li>
+			
+		</div><!-- end mobilenav -->
+		
+		<a href="javascript:void(0)" class="icon">
+		
+		   <div class="hamburger">
+		   
+		     <div class="menui top-menu"></div>
+		     
+		     <div class="menui mid-menu"></div>
+		     
+		     <div class="menui bottom-menu"></div>
+		     
+		   </div>
+		   
+		</a><!-- end icon -->
+	  
+		<div id="wrapper">
+	  <div class="main-container">
+	  	<div class="content-here">
+	  	<div class="text-here">
 		  	<h1>About</h1>
 		  	<p>Jenae Ramos is a graphic designer at the Maryland Institute College of Art (MICA). She is the career development graduate assistant at The Joseph Meyerhoff Center for Career Development and is also a Post-Baccalaureate Graphic Design student. On a side note, she is a foodie, traveler, and a proud member of Save the Manatee Club. She even has a manatee named Chessie, who was found in the Chesapeake Bay in July 1994. If you happen to have any updates on her long-lost manatee, please feel to reach out.</p>
-	  	</div>
-	  </div>
-     <div id="exit-base">
-     	<div id="sm">
-     		<a href="https://twitter.com/jcramos426" target="_blank"><img src="../img/twitter.png" alt="twitter" class="sm-icon"/></a>
-     		<a href="http://www.linkedin.com/in/jcramos426/" target="_blank"><img src="../img/linkedin.png" alt="linkedin" class="sm-icon"/></a>
-     	</div>
+	  	</div><!-- end text-here -->
+	  	<div class="about-image">
+	  	</div><!-- end headshot -->
+	  	</div><!-- end content-here -->
+	  </div><!-- end main-container -->
+		</div><!-- end wrapper -->
+	    
+	    <!-- Begin JavaScript -->
+		<script src="../js/main.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="../lib/drawer/vendor/iscroll/js/iscroll.js"></script>
+		<script src="../lib/drawer/dist/js/jquery.drawer.min.js"></script>
+		<script type="text/javascript" src="../lib/vanillabox/vanillabox-#.#.#.min.js"></script>
+		<script type="text/javascript">
+$(document).ready(function() {
+	$('.image-list a').vanillabox();
+});
+</script>
+		
 	</body>
 </html>
 
