@@ -27,6 +27,7 @@ a:link, a:visited {
 	color: #19D1FF;
 	text-decoration: none;
 	display: inline-block;
+	outline:none;
 }
 
 .main-container a:hover {
