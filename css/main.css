@@ -93,14 +93,8 @@ li {
 
 /*--------- About ----------*/
 
-.about .text-here {
-	display: inline-block;
-	width: 50%;
-}
-
-.about .about-image {
-	display: inline-block;
-	width: 50%;
+.about-image > img {
+	width: 92%;
 }
 
 /*--------- Media Queries ---------*/
@@ -132,12 +126,28 @@ li {
 	.welcome {
 		max-width: 39%;
 	}
+	
+	.about .text-here {
+		display: inline-block;
+		width: 50%;
+	}
+	
+	.about .about-image {
+		display: inline-block;
+		width: 35%;
+	}
+	
 }
 
 @media screen and (max-width:900px) {
 	
 	#wrapper {
 		margin: 0;
+	}
+	
+	.about .main-container {
+		width: 90%;
+		padding: 5%;
 	}
 	
 	.headshot-link {
@@ -158,6 +168,16 @@ li {
 	
 	.welcome > h1 {
 		font-size: 30px;
+	}
+	
+	.about .about-image {
+		display: inline-block;
+		width: 49%;
+	}
+	
+	.about .text-here {
+		display: inline-block;
+		width: 50%
 	}
 }
 
@@ -261,6 +281,12 @@ li {
 		background: #19d1ff;
 		color: white;
 		text-decoration: none;
+	}
+	
+	.about .text-here {
+		display: block;
+		width: 100%;
+		margin: 15% 0;
 	}
 	
 }
