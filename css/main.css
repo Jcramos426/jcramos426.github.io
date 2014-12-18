@@ -6,6 +6,8 @@ body {
 	font-family:Nobile;
 	font-weight: 100;
 	color: #333;
+	font-size: 14px;
+	line-height: 1.6;
 	overflow: visible;
 }
 
@@ -110,8 +112,21 @@ li {
 
 /*--------- Portfolio ----------*/
 
+.pic-title {
+	font-style: normal;
+	color:#19d1ff;
+}
+
 h1.section /* Portfolio Page Title */ {
 	font-size: 27px;
+}
+
+.portfolio .content-here {
+	padding: 8%;
+}
+
+.portfolio-detail .content-here {
+	padding: 5% 8%;
 }
 	
 .popup /* Walk the Talk */ {
@@ -130,22 +145,63 @@ h1.section /* Portfolio Page Title */ {
 	width: 89%;
 }
 
-.detail {
+.detail,
+.micagd-detail {
 	display: inline-block;
 	width: 33%;
 }
 
-.narrative-gallery {
+.micagd-detail > h1 {
+	margin: 0 0 15% 0;
+}
+
+.micagd-detail h2 {
+	font-size: 15px;
+	font-style: normal;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.micagd-detail p {
+	margin-bottom: 15%;
+}
+
+.narrative-gallery,
+.boss-gallery {
 	display: inline-block;
 	width: 45%;
+	vertical-align: top;
+	margin-right: 5%;
+	overflow: hidden;
+	height: 800px;
+}
+
+.micagd-gallery {
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+	margin-right: 5%;
+}
 
 .image-item {
-	display: inline-block;
-	width: 50%;
+	width: 100%;
+}
+
+.micagd-gallery > .image-item {
+	margin-bottom: 5%;
+	border: 1px solid #b0b0b0;
+}
+
+.micagd-anchors {
+	margin-bottom: 20%;
+}
+
+.micagd-anchors > a {
+	margin-right: 5%;
 }
 
 .image-item > img {
-	width: 50%;
+	width: 100%;
 	display: inline-block;
 }
 
