@@ -108,11 +108,44 @@ li {
 	width: 92%;
 }
 
-/*--------- Image List ----------*/
+/*--------- Portfolio ----------*/
 
-.image-list {
+h1.section /* Portfolio Page Title */ {
+	font-size: 27px;
+}
+	
+.popup /* Walk the Talk */ {
+	width: 48%;
 	display: inline-block;
-	width: 49%;
+	height: 100%;
+	vertical-align: middle;
+	margin: 0 2% 0 0;
+}
+
+.walk-link {
+	text-align: center;
+}
+
+.walk-link > img {
+	width: 89%;
+}
+
+.detail {
+	display: inline-block;
+	width: 33%;
+}
+
+.narrative-gallery {
+	display: inline-block;
+	width: 45%;
+
+.image-item {
+	display: inline-block;
+	width: 50%;
+}
+
+.image-item > img {
+	width: 50%;
 }
 
 .thumb {
@@ -135,11 +168,13 @@ li {
 	
 	.main-container {
 		width: 990px;
+		display: block;
+		margin: 0 auto;
 	}
 	
 	.headshot-link {
 		display: inline-block;
-		width: 60%;
+		width: 50%;
 	}
 	
 	.headshot-image {
@@ -147,7 +182,11 @@ li {
 	}
 	
 	.welcome {
-		max-width: 39%;
+		max-width: 30%;
+	}
+	
+	.home-navigation {
+		width: 90%;
 	}
 	
 	.about .text-here {
@@ -158,6 +197,10 @@ li {
 	.about .about-image {
 		display: inline-block;
 		width: 35%;
+	}
+	
+	.section {
+		margin: 8% 0 5%;
 	}
 	
 }
