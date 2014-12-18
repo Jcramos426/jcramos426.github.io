@@ -172,7 +172,8 @@ h1.section /* Portfolio Page Title */ {
 }
 
 .narrative-gallery,
-.boss-gallery {
+.boss-gallery,
+.stamps-gallery {
 	display: inline-block;
 	width: 45%;
 	vertical-align: top;
