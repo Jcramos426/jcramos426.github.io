@@ -108,6 +108,39 @@ $(document).ready(function() {
 		type: 'image'
 	});
 	
+	$('.micagd-case').magnificPopup({
+		items: [
+			{
+				src: '../img/portfolio/micagd/micagd-original-home.png'
+			},
+			{
+				src: '../img/portfolio/micagd/micagd-sketch.png'
+			},
+			{
+				src: '../img/portfolio/micagd/micagd-initial-mockup.png'
+			},
+			{
+				src: '../img/portfolio/micagd/micagd-style-tile.png'
+			},
+			{
+				src: '../img/portfolio/micagd/micagd-style-tile2.png'
+			},
+			{
+				src: '../img/portfolio/micagd/micagd-home.png'
+			},
+			{
+				src: '../img/portfolio/micagd/micagd-gallery.png'
+			},
+			{
+				src: '../img/portfolio/micagd/micagd-mobile.png'
+			},
+		],
+		gallery: {
+			enabled:true
+		}, 
+		type: 'image'
+	});
+	
 	$('.stamps-gallery').magnificPopup({
 		items: [
 			{
