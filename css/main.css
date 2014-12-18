@@ -145,11 +145,16 @@ h1.section /* Portfolio Page Title */ {
 	width: 89%;
 }
 
-.detail,
-.micagd-detail {
+.detail {
 	display: inline-block;
 	width: 33%;
 }
+
+.micagd-detail {
+	display: inline-block;
+	width: 25%;
+}
+
 
 .micagd-detail > h1 {
 	margin: 0 0 15% 0;
