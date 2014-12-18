@@ -146,6 +146,7 @@ h1.section /* Portfolio Page Title */ {
 
 .image-item > img {
 	width: 50%;
+	display: inline-block;
 }
 
 .thumb {
