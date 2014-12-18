@@ -78,10 +78,16 @@ $(document).ready(function() {
 				src: '../img/portfolio/micagd/micagd-original-home.png'
 			},
 			{
-				src: '../img/portfolio/micagd/micagd-original-hover.png'
+				src: '../img/portfolio/micagd/micagd-sketch.png'
 			},
 			{
-				src: '../img/portfolio/micagd/micagd-sketch.png'
+				src: '../img/portfolio/micagd/micagd-initial-mockup.png'
+			},
+			{
+				src: '../img/portfolio/micagd/micagd-style-tile.png'
+			},
+			{
+				src: '../img/portfolio/micagd/micagd-style-tile2.png'
 			},
 			{
 				src: '../img/portfolio/micagd/micagd-home.png'
@@ -90,10 +96,10 @@ $(document).ready(function() {
 				src: '../img/portfolio/micagd/micagd-gallery.png'
 			},
 			{
-				src: '../img/portfolio/micagd/micagd-work.png'
+				src: '../img/portfolio/micagd/micagd-mobile.png'
 			},
 			{
-				src: '../img/portfolio/micagd/micagd-mobile.png'
+				src: '../img/portfolio/micagd/micagd-spotify.png'
 			},
 		],
 		gallery: {
