@@ -401,10 +401,12 @@ a.hide-link {
 
 }
 
-@media screen and (max-width:651px) {
-	.portfolio .content-here {
-		margin: 8%;
+@media screen and (min-width:651px) {
+
+	.main-container .content-here {
+		margin: 15% 7%;
 	}
+
 }
 
 @media screen and (max-width:650px){
