@@ -4,11 +4,6 @@
 	ABOUT
 	PORTFOLIO
 	MEDIA QUERIES
-
-
-
-
-
 */
 
 /*--------- all -------*/
@@ -40,6 +35,13 @@ h1, h2, h3, h4, h5 {
 	color: #ffc100;
 }
 
+a.icon::after {
+	content: "Jenae Ramos Design";
+	display: inline-block;
+	width: 140px;
+	margin: 4px 0 4px 35px;
+}
+
 a:link, a:visited {
 	color: #19D1FF;
 	text-decoration: none;
@@ -54,6 +56,10 @@ a:link, a:visited {
 
 .main-container span a:hover {
 	text-decoration: none;
+}
+
+.content-here > h1 {
+	font-size: 21px;
 }
 
 .mobilenav li a:hover {
@@ -102,7 +108,7 @@ li {
 
 .home-li {
 	display: inline-block;
-	width: 20%;
+	width: 19%;
 }
 
 .home-link {
@@ -142,14 +148,6 @@ h1.section /* Portfolio Page Title */ {
 	font-size: 27px;
 }
 
-.portfolio .content-here {
-	padding: 8%;
-}
-
-.portfolio-detail .content-here {
-	padding: 5% 8%;
-}
-	
 .popup /* Walk the Talk */ {
 	width: 48%;
 	display: inline-block;
@@ -259,6 +257,23 @@ a.hide-link {
 .thumb {
 	width: 72%;
 	display: inline-block;
+}
+
+/*--------- Inspiration ----------*/
+
+.inspiration-image {
+	display: block;
+	width: 100%;
+}
+
+.inspiration-image img {
+	max-width: 100%;
+}
+
+.inspiration .text-here {
+	display: block;
+	width: 84%;
+	text-align: justify;
 }
 
 /*--------- Media Queries ---------*/
@@ -456,12 +471,29 @@ a.hide-link {
 	}
 	
 	.main-container,
-	.content-here {
+	.content-here,
+	.portfolio .content-here {
 		width: 100%;
-		margin: 0 2%;
+		margin: 25% 0;
 		padding: 0;
 		display: block;
 		position: static;
+	}/*
+
+	
+	.inspiration .main-container .content-here,
+	.portfolio-detail .main-container .content-here {
+		margin: 25% 0;
+		padding: 0;
+	}
+*/
+	
+	.inspiration-image a {
+		width: 100%;
+	}
+	
+	.inspiration-image a img {
+		width: 100%;
 	}
 	
 	.main-container {
@@ -509,10 +541,6 @@ a.hide-link {
 		width: 100%;
 		display: block;
 		margin: 0 auto;
-	}
-	
-	.portfolio-detail .content-here {
-		padding: 5% 0;
 	}
 	
 }
