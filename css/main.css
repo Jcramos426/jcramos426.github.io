@@ -29,6 +29,10 @@ body {
 	margin: 5% 0 0;
 }
 
+h1, h2, h3, h4, h5 {
+	font-family: 'Bitter', serif;
+}
+
 h1, h2 {
 	font-size: 36px;
 	color: #ffc100;
@@ -36,7 +40,6 @@ h1, h2 {
 
 h3, h4, h5 {
 	font-size: 21px;
-	font-family:Nobile;
 	color: #ffc100;
 }
 
