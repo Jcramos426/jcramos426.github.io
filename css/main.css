@@ -104,6 +104,15 @@ li {
 	margin: 1% 2%;
 }
 
+.animated {
+	animation-duration: 1s;
+	animation-fill-mode:both;
+}
+
+.fadeIn {
+	animation-name: fadeIn;
+}
+
 .gallery-here ul li {
 	width: 100%;
 	float: left;
