@@ -199,6 +199,14 @@ animation-delay: 1.6s;
 	width: 92%;
 }
 
+.welcome.about h1 {
+	margin-bottom: 3%;
+}
+
+.welcome.about p {
+	margin-bottom: 1%;
+}
+
 /*-------- Contact --------*/
 	
 .social {
@@ -492,5 +500,13 @@ animation-delay: 1.6s;
 		width: 100%;
 		margin: 0 auto;
 		max-width: 100%;
+	}
+	
+	.welcome.about h1 {
+		margin-bottom: 5%;
+	}
+	
+	.welcome.about p {
+		margin-bottom: 3%;
 	}
 }
