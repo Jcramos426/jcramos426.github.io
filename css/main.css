@@ -23,7 +23,7 @@ body {
 
 .wrapper {
 	width: 100%;
-	margin: 5% 0;
+	margin: 5% 0 0;
 }
 
 h1, h2 {
@@ -79,21 +79,23 @@ li {
 .main-container {
 	display: block;
 	width: 1250px;
-	margin: 0 auto;
+	margin: 15% auto;
 }
 
 .gallery-here {
-	max-width: 57%;
-	display: inline-block;
+	max-width: 100%;
+	width: 100%;
+	display: block;
 }
 
 .gallery-here ul {
 	width: 100%;
 	padding:0;
 	float: left;
-	margin: 0;
+	margin: 0 auto 10%;
 	display: block;
-	text-align: justify;
+	max-width: 100%;
+	text-align: center;
 }
 
 .gallery-here > ul > a {
@@ -121,8 +123,8 @@ li {
 }
 
 .welcome {
-	display: inline-block;
-	width: 36%;
+	display: block;
+	width: 100%;
 	vertical-align: top;
 }
 
@@ -144,34 +146,121 @@ li {
 
 
 /*--------- Media Queries ---------*/
-@media screen and (max-width:1369px){
+@media screen and (min-width:1050px){
 	
-	.gallery-here {
-		margin-left: 6%;
-	}
-}
-
-@media screen and (max-width:1049px){
 	.main-container {
-		width: 1000px;
+		width: 1250px;
 		display: block;
-		margin: 0 auto;
 	}
 	
 	.welcome {
+		max-width: 100%;
 		display: block;
-		width: 75%;
-		margin: 9% 4%;
+		margin: 0;
 	}
 	
 	.welcome > h1 {
 		margin-bottom: 5%;
+		font-size: 27px;
+		font-weight: 100;
+	}
+	
+	.gallery-here {
+		max-width: 100%;
+		display: block;
+		margin: 0;
+	}
+	
+	.gallery-here > ul > a {
+		display: inline-block;
+		width: 286px !important;
+	}
+}
+
+@media screen and (min-width: 991px) {
+	.main-container { 
+		width: 92%;
+		display: block;
+		margin: 7% auto 0;
+		text-align: center;
+		max-width: 95%;
+	}	
+	
+	.welcome {
+		width: 100%;
+		margin: 0 auto 5%;
+	}
+	
+	.welcome > p {
+		max-width: 37%;
+		margin: 0 auto;
+		text-align: left;
+	}
+	
+	.gallery-here {
+		width: 100%;
+	}
+	
+	.gallery-here ul {
+		width: 72%;
+		float: none;
+		margin: 0 auto;
+	}
+	
+	.gallery-here > ul > a {
+		display: inline-block;
+		width: 38%;
+		margin: 1% 2%;
+	}
+}
+
+@media screen and (max-width:990px){
+	.wrapper {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.main-container {
+		width: 88%;
+		display: block;
+		margin: 12% 6%;
+		text-align: center;
+	}
+	
+	.welcome {
+		display: block;
+		text-align: center;
+		max-width: 100%;
+		margin: 5% auto 10%;
+		width: 63%;
+	}
+	
+	.welcome > h1 {
+		text-align: center;
+		font-size: 42px;
+	}
+	
+	.welcome > p {
+		text-align: left;
+		max-width: 100%;
+		margin: 0 auto;
 	}
 	
 	.gallery-here {
 		display: block;
 		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.gallery-here ul {
 		max-width: 100%;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.gallery-here > ul > a {
+		margin: 2% 4% 2% 0;
 	}
 }
 
@@ -182,102 +271,165 @@ li {
 	}
 	
 	.main-container {
-		width: 100%;
+		width: 88%;
 		display: block;
+		margin: 20% auto 15%;
 	}
 	
 	.welcome {
 		display: block;
-		width: 75%;
-		margin: 15% 7%;
+		width: 85%;
+		margin: 8% 7% 6%;
 	}
 	
 	.welcome > h1 {
-		margin-bottom: 5%;
+		font-size: 36px;
+	}
+	
+	.welcome > p {
+		max-width: 75%;
+		margin: 0 auto;
 	}
 	
 	.gallery-here {
 		display: block;
+		max-width: 100%;
+		margin: 0 auto;
 		width: 100%;
-		margin: 0 7%;
 	}
 	
 	.gallery-here ul {
-		width: 82%;
+		width: 100%;
+		margin-bottom: 10%;
 	}
 	
 	.gallery-here > ul > a {
-		margin: 2% 0;
+		margin: 2% 4% 2% 0;
+		width: 45%;
+	}
+}
+
+@media screen and (max-width:800px){
+	
+	.welcome {
+		display: block;
+		width: 85%;
+		margin: 20% 0 8% 8%;
+	}
+	
+	.welcome > h1 {
+		font-size: 33px;
+	}
+	
+	.welcome > p {
+		max-width: 100%;
+	}
+	
+	.gallery-here {
+		display: block;
+		width: 90%;
+		margin: 0 0 0 8%;
+	}
+	
+	.gallery-here ul {
+		width: 98%;
+		margin-bottom: 6%;
+	}
+	
+	.gallery-here > ul > a {
+		margin: 0 2% 0 0;
+		width: 45%;
 	}
 }
 
 @media screen and (max-width:600px){
-	.wrapper {
-		margin: 0;
-		padding: 0;
-	}
-	
-	.main-container {
-		width: 100%;
-		display: block;
-	}
 	
 	.welcome {
 		display: block;
 		width: 75%;
-		margin: 18% 5% 10% 10%;
+		margin: 18% 4% 10% 14%;
 	}
 	
 	.welcome > h1 {
-		margin-bottom: 5%;
+		font-size: 30px;
+		margin-bottom: 15%;
 	}
 	
 	.gallery-here {
 		display: block;
 		width: 100%;
-		margin: 0 10%;
+		margin: 0 12%;
 	}
 	
 	.gallery-here ul {
-		width: 75%;
+		width: 100%;
+		max-width: 78%;
+		margin: 0 auto;
 	}
 	
 	.gallery-here > ul > a {
 		width: 100%;
-		margin: 0;
+		margin: 0 auto;
+		max-width: 49%;
+	}
+}
+
+@media screen and (max-width:500px){
+	
+	.welcome {
+		display: block;
+		width: 75%;
+		margin: 25% 4% 10% 14%;
+	}
+	
+	.welcome > h1 {
+		font-size: 27px;
+	}
+	
+	.gallery-here {
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.gallery-here ul {
+		width: 100%;
+		max-width: 100%;
+	}
+	
+	.gallery-here > ul > a {
+		max-width: 45%;
 	}
 }
 
 @media screen and (max-width:430px){
-	.wrapper {
-		margin: 0;
-		padding: 0;
-	}
 	
 	.main-container {
-		width: 100%;
+		width: 97%;
 		display: block;
-		margin: 2%;
 	}
 	
 	.welcome {
 		display: block;
-		width: 86%;
-		margin: 18% 5% 10% 5%;
+		width: 88%;
+		margin: 25% 0 10% 8%;
 	}
 	
 	.welcome > h1 {
-		margin-bottom: 5%;
+		font-size: 27px;
 	}
 	
 	.gallery-here {
 		display: block;
 		width: 100%;
-		margin: 0 4%;
+		margin: 0 auto;
+		text-align: center;
 	}
 	
 	.gallery-here > ul > a {
 		width: 100%;
-		margin: 0;
+		margin: 0 auto;
+		max-width: 100%;
 	}
 }
