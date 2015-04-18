@@ -225,6 +225,14 @@ animation-delay: 2s;
 	max-width: 60%;
 }
 
+.extra-bottom, .gallery-here.extra-bottom {
+	margin-bottom: 5%;
+}
+
+.extra-top {
+	margin-top: 5%;
+}
+
 /*---- Impossibility ----*/
 
 .gallery-here.impossibility .portfolio {
@@ -565,4 +573,9 @@ animation-delay: 2s;
 	.motorhouse a .portfolio {
 		max-width: 75%;
 	}
+
+	.quarry {
+		display: none;
+	}
+
 }
