@@ -137,15 +137,33 @@ animation-delay: 0.7s;
 }
 
 .fade-in.two {
+-webkit-animation-delay: 1.6s;
+-moz-animation-delay: 1.6s;
+animation-delay: 1.6s;
+}
+
+.fade-in.three {
+-webkit-animation-delay: 2.3s;
+-moz-animation-delay: 2.3s;
+animation-delay: 2.3s;
+}
+
+.fade-in.four {
+-webkit-animation-delay: 2.5s;
+-moz-animation-delay: 2.5s;
+animation-delay: 2.5s;
+}
+
+.fade-in.five {
 -webkit-animation-delay: 1.2s;
 -moz-animation-delay:1.2s;
 animation-delay: 1.2s;
 }
 
-.fade-in.three {
--webkit-animation-delay: 1.6s;
--moz-animation-delay: 1.6s;
-animation-delay: 1.6s;
+.fade-in.six {
+-webkit-animation-delay: 2s;
+-moz-animation-delay: 2s;
+animation-delay: 2s;
 }
 
 .hvr-float {
