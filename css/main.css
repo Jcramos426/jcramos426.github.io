@@ -255,7 +255,35 @@ animation-delay: 2s;
 	margin-bottom: 5%;
 }
 
-/*--------- About ----------*/
+/*------ Stamps -------*/
+
+.gallery-here.warhol {
+	width: 78%;
+	margin: 0 auto 5%;
+}
+
+.warhol .portfolio {
+	margin: 0 auto 5%;
+	width: 65%;
+	display: block;
+}
+
+.portfolio.stamp {
+	max-width: 37%;
+}
+
+.warhol p {
+	text-align: left;
+}
+
+/*------- Bad Boss -------*/
+
+.issuuembed {
+	display: block;
+	margin: 0 auto 5%;
+}
+
+/*---------========== About ===========----------*/
 
 .about-image > img {
 	width: 92%;
@@ -270,7 +298,7 @@ animation-delay: 2s;
 }
 
 
-/*--------- Media Queries ---------*/
+/*---------========== Media Queries ============------------*/
 @media screen and (min-width:1050px){
 	
 	.main-container {
@@ -336,6 +364,16 @@ animation-delay: 2s;
 		display: inline-block;
 		width: 38%;
 		margin: 1% 2%;
+	}
+	
+	.gallery-here.warhol .sheet {
+		width: 50%;
+	}
+	
+	.gallery-here.warhol p {
+		width: 65%;
+		text-align: left;
+		margin: 0 auto 2%;
 	}
 }
 
@@ -465,6 +503,10 @@ animation-delay: 2s;
 		margin: 0 2% 0 0;
 		width: 45%;
 	}
+	
+	.gallery-here.warhol img {
+		max-width: 75%;
+	}
 }
 
 @media screen and (max-width:600px){
@@ -576,6 +618,11 @@ animation-delay: 2s;
 
 	.quarry {
 		display: none;
+	}
+	
+	.gallery-here.warhol img {
+		max-width: 100%;
+		width: 100%;
 	}
 
 }
