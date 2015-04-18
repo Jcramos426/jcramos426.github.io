@@ -214,6 +214,10 @@ animation-delay: 2s;
 	margin-bottom: 10%;
 }
 
+.welcome.virtuo {
+	margin:0 auto 4%;
+}
+
 /*--------- About ----------*/
 
 .about-image > img {
@@ -226,12 +230,6 @@ animation-delay: 2s;
 
 .welcome.about p {
 	margin-bottom: 1%;
-}
-
-/*-------- Contact --------*/
-	
-.social {
-	margin: 20% 3% 5% 0;
 }
 
 
