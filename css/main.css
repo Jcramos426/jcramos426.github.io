@@ -31,16 +31,17 @@ body {
 
 h1, h2, h3, h4, h5 {
 	font-family: 'Bitter', serif;
+	letter-spacing: 1px;
 }
 
-h1, h2 {
-	font-size: 36px;
+h1 {
+	font-size: 24px;
 	color: #ffc100;
 }
 
-h3, h4, h5 {
+h2, h3, h4, h5 {
 	font-size: 21px;
-	color: #ffc100;
+	color:#2d2c2c;
 }
 
 a.icon::after {
@@ -78,6 +79,10 @@ a:link, a:visited {
 
 li {
 	list-style: none;
+}
+
+em {
+	font-weight: 100;
 }
 
 /*---------- home ----------*/
@@ -214,8 +219,32 @@ animation-delay: 2s;
 	margin-bottom: 10%;
 }
 
+/*------=============== Portfolio ===============-------*/
+
+.portfolio {
+	max-width: 60%;
+}
+
+/*---- Impossibility ----*/
+
+.gallery-here.impossibility .portfolio {
+	margin-bottom: 5%;
+}
+
+/*---- Virtuo ----*/
+
 .welcome.virtuo {
-	margin:0 auto 4%;
+	margin:0 auto 3%;
+}
+
+/*--------- Motorhouse ----------*/
+
+.motorhouse.portfolio {
+	display: inline-block;
+}
+
+.gallery-here.motorhouse {
+	margin-bottom: 5%;
 }
 
 /*--------- About ----------*/
@@ -527,5 +556,13 @@ animation-delay: 2s;
 	
 	.welcome.about p {
 		margin-bottom: 3%;
+	}
+	
+	.portfolio {
+		max-width: 85%;
+	}
+	
+	.motorhouse a .portfolio {
+		max-width: 75%;
 	}
 }
