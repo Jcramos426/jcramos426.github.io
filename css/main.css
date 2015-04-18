@@ -233,6 +233,10 @@ animation-delay: 2s;
 	margin-top: 5%;
 }
 
+.gallery-here ul li img.portfolio {
+	cursor: default;
+}
+
 /*---- Impossibility ----*/
 
 .gallery-here.impossibility .portfolio {
