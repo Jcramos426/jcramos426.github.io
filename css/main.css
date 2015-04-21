@@ -39,9 +39,22 @@ h1 {
 	color: #ffc100;
 }
 
-h2, h3, h4, h5 {
-	font-size: 21px;
+h2 {
+	font-size: 16px;
 	color:#2d2c2c;
+	width: 37%;
+	display: block;
+	margin: 0 auto 1%;
+	text-transform: uppercase;
+}
+
+h3, h4, h5 {
+	font-size: 14px;
+	color:#ffc100;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 1% auto;
+	width: 37%;
 }
 
 a.icon::after {
@@ -243,20 +256,18 @@ animation-delay: 2s;
 	margin-bottom: 5%;
 }
 
-/*---- Virtuo ----*/
-
-.welcome.virtuo {
-	margin:0 auto 3%;
-}
-
 /*--------- Motorhouse ----------*/
 
-.motorhouse.portfolio {
-	display: inline-block;
+.motorhouse .portfolio {
+	max-width: 90%;
 }
 
 .gallery-here.motorhouse {
-	margin-bottom: 5%;
+	margin: 5% auto;
+}
+
+#exterior, #interior {
+	margin-top: 25%;
 }
 
 /*------ Stamps -------*/
@@ -287,6 +298,13 @@ animation-delay: 2s;
 	margin: 0 auto 5%;
 }
 
+
+/*-------- JetBlue ---------*/
+
+.jetblue h2 {
+	margin: 15% auto 2%;
+}
+
 /*---------========== About ===========----------*/
 
 .about-image > img {
@@ -294,7 +312,7 @@ animation-delay: 2s;
 }
 
 .welcome.about h1 {
-	margin-bottom: 3%;
+	margin: 6% auto 9%;
 }
 
 .welcome.about p {
@@ -316,9 +334,12 @@ animation-delay: 2s;
 		margin: 0;
 	}
 	
+	.welcome.about {
+		width: 700px;
+	}
+	
 	.welcome > h1 {
 		margin-bottom: 5%;
-		font-size: 27px;
 		font-weight: 100;
 	}
 	
@@ -332,9 +353,14 @@ animation-delay: 2s;
 		display: inline-block;
 		width: 286px !important;
 	}
+	
+	.gallery-here.warhol .sheet {
+		width: 50% !important;
+	}
 }
 
 @media screen and (min-width: 991px) {
+
 	.main-container { 
 		width: 92%;
 		display: block;
@@ -344,12 +370,12 @@ animation-delay: 2s;
 	}	
 	
 	.welcome {
-		width: 100%;
+		width: 870px;
 		margin: 0 auto 5%;
 	}
 	
 	.welcome > p {
-		max-width: 37%;
+		max-width: 70%;
 		margin: 0 auto;
 		text-align: left;
 	}
@@ -371,13 +397,28 @@ animation-delay: 2s;
 	}
 	
 	.gallery-here.warhol .sheet {
-		width: 50%;
+		width: 850px;
 	}
 	
 	.gallery-here.warhol p {
 		width: 65%;
 		text-align: left;
 		margin: 0 auto 2%;
+	}
+	
+	h2 {
+		width: 70%;
+		text-align: left;
+	}
+	
+	h3, h4, h5 {
+		width: 70%;
+	}
+	
+	.welcome.about {
+		width: 820px;
+		margin: 0 auto 5%;
+		max-width: 70%;
 	}
 }
 
@@ -398,13 +439,18 @@ animation-delay: 2s;
 		display: block;
 		text-align: center;
 		max-width: 100%;
-		margin: 5% auto 10%;
-		width: 63%;
+		margin: 10% auto 5%;
+		width: 80%;
 	}
 	
 	.welcome > h1 {
 		text-align: center;
-		font-size: 42px;
+	}
+	
+	h2, h3, h4, h5 {
+		margin: 0 auto 1%;
+		text-align: left;
+		width: 100%;
 	}
 	
 	.welcome > p {
@@ -426,12 +472,29 @@ animation-delay: 2s;
 		text-align: center;
 	}
 	
+	.gallery-here.impossibility {
+		width: 78%;
+		margin: 0 auto;
+	}
+	
+	.gallery-here.impossibility .portfolio {
+		width: 100%;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
 	.gallery-here > ul > a {
 		margin: 2% 4% 2% 0;
+	}
+	
+	.welcome.about {
+		width: 70%;
+		max-width: 70%
 	}
 }
 
 @media screen and (max-width:900px){
+
 	.wrapper {
 		margin: 0;
 		padding: 0;
@@ -446,15 +509,11 @@ animation-delay: 2s;
 	.welcome {
 		display: block;
 		width: 85%;
-		margin: 8% 7% 6%;
-	}
-	
-	.welcome > h1 {
-		font-size: 36px;
+		margin: 8% auto;
 	}
 	
 	.welcome > p {
-		max-width: 75%;
+		max-width: 100%;
 		margin: 0 auto;
 	}
 	
@@ -474,6 +533,11 @@ animation-delay: 2s;
 		margin: 2% 4% 2% 0;
 		width: 45%;
 	}
+	
+	.gallery-here.warhol .portfolio.stamp {
+		width: 75%;
+		max-width: 60%;
+	}
 }
 
 @media screen and (max-width:800px){
@@ -482,10 +546,6 @@ animation-delay: 2s;
 		display: block;
 		width: 85%;
 		margin: 20% 0 8% 8%;
-	}
-	
-	.welcome > h1 {
-		font-size: 33px;
 	}
 	
 	.welcome > p {
@@ -509,6 +569,11 @@ animation-delay: 2s;
 	}
 	
 	.gallery-here.warhol img {
+		width: 100%;
+		max-width: 100%;
+	}
+	
+	.gallery-here.warhol .stamp {
 		max-width: 75%;
 	}
 }
@@ -521,8 +586,11 @@ animation-delay: 2s;
 		margin: 18% 4% 10% 14%;
 	}
 	
+	.welcome.motor {
+		margin: 9% auto;
+	}
+	
 	.welcome > h1 {
-		font-size: 30px;
 		margin-bottom: 15%;
 	}
 	
@@ -532,10 +600,26 @@ animation-delay: 2s;
 		margin: 0 12%;
 	}
 	
+	.gallery-here.impossibility {
+		width: 78%;
+		margin: 0 auto;
+	}
+	
+	.gallery-here.impossibility .portfolio {
+		width: 100%;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
 	.gallery-here ul {
 		width: 100%;
 		max-width: 78%;
 		margin: 0 auto;
+	}
+	
+	.gallery-here.motorhouse ul {
+		margin-bottom: 10%;
+		max-width: 100%;
 	}
 	
 	.gallery-here > ul > a {
@@ -549,8 +633,8 @@ animation-delay: 2s;
 	
 	.welcome {
 		display: block;
-		width: 75%;
-		margin: 25% 4% 10% 14%;
+		width: 100%;
+		margin: 10% auto;
 	}
 	
 	.welcome > h1 {
@@ -569,8 +653,17 @@ animation-delay: 2s;
 		max-width: 100%;
 	}
 	
+	.gallery-here.motorhouse ul {
+		margin-bottom: 10%;
+	}
+	
 	.gallery-here > ul > a {
 		max-width: 45%;
+	}
+		
+	.gallery-here.warhol img, .gallery-here.warhol .portfolio.stamp {
+		width: 100%;
+		max-width: 100%;
 	}
 }
 
@@ -583,12 +676,12 @@ animation-delay: 2s;
 	
 	.welcome {
 		display: block;
-		width: 88%;
-		margin: 25% 0 10% 8%;
+		width: 87%;
+		margin: 15% auto 10%;
 	}
 	
 	.welcome > h1 {
-		font-size: 27px;
+		font-size: 24px;
 	}
 	
 	.gallery-here {
@@ -628,5 +721,19 @@ animation-delay: 2s;
 		max-width: 100%;
 		width: 100%;
 	}
+	
+	h2 {
+		width: 100%;
+		margin: 2% auto;
+		text-align: left;
+		font-size: 18px;
+	}
 
+	h3, h4, h5 {
+		width: 100%;
+		margin: 2% auto;
+		font-size: 15px;
+		font-weight: normal;
+		letter-spacing: 1.5px;
+	}
 }
