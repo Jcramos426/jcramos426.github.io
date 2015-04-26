@@ -59,7 +59,8 @@ h3, h4, h5 {
 
 .home-icon {
 	position: fixed;
-	margin: -57px 0 0 60px;
+	top: 13px;
+	left: 58px;
 	font-size: 23px;
 	z-index: 100;
 }
@@ -323,7 +324,7 @@ animation-delay: 2s;
 
 /*---------========== Media Queries ============------------*/
 @media screen and (min-width:1050px){
-	
+
 	.main-container {
 		width: 1250px;
 		display: block;
@@ -373,6 +374,10 @@ animation-delay: 2s;
 	.welcome {
 		width: 870px;
 		margin: 0 auto 3%;
+	}
+	
+	.welcome.virtuo {
+		margin: 7% auto 4%;
 	}
 	
 	.welcome > p {
@@ -681,8 +686,13 @@ animation-delay: 2s;
 		margin: 0 auto;
 	}
 	
+	.main-container.thesis {
+		margin-bottom: 7%;
+	}
+	
 	.home-icon {
-		margin: 17px 0 0 70px;
+		top:18px;
+		left: 70px;
 	}
 	
 	.welcome {
