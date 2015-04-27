@@ -272,6 +272,15 @@ animation-delay: 2s;
 	margin-top: 25%;
 }
 
+
+/*---------- Linotype -----------*/
+
+.gallery-here.impossibility .portfolio.ipad {
+	max-width: 65%;
+	display: block;
+	margin: 0 auto;
+}
+
 /*------ Stamps -------*/
 
 .gallery-here.warhol {
@@ -373,7 +382,7 @@ animation-delay: 2s;
 	
 	.welcome {
 		width: 870px;
-		margin: 0 auto 3%;
+		margin: 7% auto 3%;
 	}
 	
 	.welcome.virtuo {
@@ -480,10 +489,10 @@ animation-delay: 2s;
 	
 	.gallery-here.impossibility {
 		width: 78%;
-		margin: 0 auto;
+		margin: 0 auto 6%;
 	}
 	
-	.gallery-here.impossibility .portfolio {
+	.gallery-here.impossibility .portfolio, .gallery-here.impossibility .portfolio.ipad {
 		width: 100%;
 		max-width: 100%;
 		margin: 0 auto;
@@ -608,7 +617,7 @@ animation-delay: 2s;
 	
 	.gallery-here.impossibility {
 		width: 78%;
-		margin: 0 auto;
+		margin: 0 auto 3%;
 	}
 	
 	.gallery-here.impossibility .portfolio {
@@ -714,7 +723,7 @@ animation-delay: 2s;
 	.gallery-here {
 		display: block;
 		width: 100%;
-		margin: 0 auto;
+		margin: 0 auto 3%;
 		text-align: center;
 	}
 	
@@ -747,6 +756,12 @@ animation-delay: 2s;
 	.gallery-here.warhol img {
 		max-width: 100%;
 		width: 100%;
+	}
+
+	.gallery-here.impossibility .portfolio.ipad {
+		max-width: 100%;
+		display: block;
+		margin: 0 auto 8%;
 	}
 	
 	h2 {
