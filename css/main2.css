@@ -74,7 +74,7 @@ a:link, a:visited {
 
 .main-container a:hover {
 	color: #ffc100;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .main-container span a:hover {
@@ -85,7 +85,8 @@ a:link, a:visited {
 	font-size: 21px;
 }
 
-.mobilenav li a {
+.mobilenav li a,
+.headline {
 	font-family: 'Bitter', serif;
 	letter-spacing: 1px;
 }
@@ -116,6 +117,7 @@ em {
 	max-width: 100%;
 	width: 100%;
 	display: block;
+	margin: 0 auto;
 }
 
 .gallery-here ul {
@@ -128,10 +130,15 @@ em {
 	text-align: center;
 }
 
-.gallery-here > ul > a {
+.gallery-here > ul > div {
 	display: inline-block;
 	width: 350px;
 	margin: 1% 2%;
+}
+
+.item-hover .headline:hover,
+.item-hover .date:hover {
+	text-decoration: none;
 }
 
 /* make keyframes that tell the start state and the end state of our object */
@@ -190,6 +197,7 @@ animation-delay: 1.2s;
 animation-delay: 2s;
 }
 
+/*
 .hvr-float {
 	-webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -209,6 +217,7 @@ animation-delay: 2s;
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
 }
+*/
 
 .gallery-here ul li {
 	width: 100%;

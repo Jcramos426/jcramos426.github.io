@@ -14,7 +14,7 @@ a.caption:hover {
 .item {
     text-align:center;
     float:left;
-    margin:5px;
+    margin:2%;
     position:relative;			
 }
 
@@ -23,8 +23,8 @@ a.caption:hover {
     .item-hover .mask,
     .item-img,
     .item-info {
-            width: 300px;
-            height: 225px;	
+            width: 350px;
+            height: 250px;	
     }
 
     .item-hover,
@@ -58,7 +58,8 @@ a.caption:hover {
             }
     
             .item-type-line .item-info .headline {
-                    font-size:20px;					
+                    font-size:20px;
+                    text-decoration: none;					
             }
             
             .item-type-line .item-info .line {
@@ -75,13 +76,14 @@ a.caption:hover {
             
             .item-type-line .item-info .date {
                     font-size:12px;
+                    text-decoration: none;	
             }
             
             .item-type-line .item-hover .mask {
                     background-color:#000;
                     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-                    filter: alpha(opacity=50);										
-                    opacity:0.5;
+                    filter: alpha(opacity=65);										
+                    opacity:0.65;
                     z-index:0;
             }
             
@@ -94,6 +96,6 @@ a.caption:hover {
             }				
     
     .item-img {			
-            background-color:#7a548f;
+            background-color:#19D1FF;
             z-index:0;			
     }   
