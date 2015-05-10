@@ -44,7 +44,7 @@ h2 {
 	color:#2d2c2c;
 	width: 37%;
 	display: block;
-	margin: 5% auto 10%;
+	margin: 5% auto;
 }
 
 h3 {
@@ -269,6 +269,10 @@ animation-delay: 2s;
 
 .gallery-here ul li img.portfolio {
 	cursor: default;
+}
+
+.mobile {
+	display: none;
 }
 
 /*---- Impossibility ----*/
@@ -801,5 +805,9 @@ animation-delay: 2s;
 		font-size: 15px;
 		font-weight: normal;
 		letter-spacing: 1.5px;
+	}
+	
+	.mobile {
+		display: block;
 	}
 }
