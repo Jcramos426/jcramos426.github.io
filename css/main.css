@@ -300,6 +300,11 @@ animation-delay: 2s;
 	margin: 0 auto;
 }
 
+.block {
+	display: block;
+	margin: 0 auto;
+}
+
 /*------ Stamps -------*/
 
 .gallery-here.warhol {
