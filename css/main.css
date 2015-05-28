@@ -40,11 +40,11 @@ h1 {
 }
 
 h2 {
-	font-size: 16px;
+	font-size: 18px;
 	color:#2d2c2c;
 	width: 37%;
 	display: block;
-	margin: 5% auto;
+	margin: 5% auto 1%;
 }
 
 h3 {
