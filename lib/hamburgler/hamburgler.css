@@ -93,9 +93,19 @@
     margin-top: 60px;
 }
 
+@media screen and (max-width:600px){
+	
+	.mobilenav li a {
+	    font-size: 30px;
+	}
+}
 
 @media screen and (max-width:430px){
 	.icon {
 		margin: 2% 5%;
+	}
+	
+	.mobilenav li a {
+	    font-size: 21px;
 	}
 }
