@@ -149,6 +149,10 @@ em {
 	margin: 1% 2%;
 }
 
+.quick-intro {
+    font-size: 17px;
+}
+
 /* make keyframes that tell the start state and the end state of our object */
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -412,6 +416,10 @@ animation-delay: 2s;
 		width: 870px;
 		margin: 7% auto 3%;
 	}
+
+    .quick-intro {
+        font-size: 15px;
+    }
 	
 	.welcome.virtuo {
 		margin: 7% auto 4%;
@@ -489,6 +497,10 @@ animation-delay: 2s;
 	.welcome > h1 {
 		text-align: center;
 	}
+
+    .quick-intro {
+        font-size: 14px;
+    }
 	
 	h2, h3, h4, h5 {
 		margin: 0 auto 1%;
@@ -628,6 +640,10 @@ animation-delay: 2s;
 		width: 75%;
 		margin: 18% 4% 10% 14%;
 	}
+
+    .quick-intro {
+        font-size: 13px;
+    }
 	
 	.welcome.motor {
 		margin: 9% auto;
@@ -722,6 +738,10 @@ animation-delay: 2s;
 		display: block;
 		margin: 0 auto;
 	}
+
+    .quick-intro {
+        font-size: 14px;
+    }
 	
 	.main-container.thesis {
 		margin-bottom: 7%;
