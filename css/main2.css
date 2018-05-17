@@ -16,8 +16,8 @@ body {
 	display: block;
 	width: 100%;
 	padding: 0;
-	font-family:Nobile;
-	font-weight: 100;
+	font-family:Source Sans Pro;
+	font-weight: 400;
 	color: #333;
 	font-size: 14px;
 	line-height: 1.6;
@@ -30,29 +30,44 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: 'Bitter', serif;
+	font-family: 'Source Serif Pro', serif;
 	letter-spacing: 1px;
 }
 
 h1 {
-	font-size: 24px;
+	font-size: 40px;
 	color: #ffc100;
 }
 
 h2 {
-	font-size: 16px;
+	font-size: 18px;
 	color:#2d2c2c;
 	width: 37%;
 	display: block;
-	margin: 0 auto 1%;
-	text-transform: uppercase;
+	margin: 5% auto 1%;
 }
 
-h3, h4, h5 {
+h3 {
+	font-family: 'Source Serif Pro', serif;
 	font-size: 14px;
-	color:#ffc100;
+	color:#292929;
 	text-align: left;
+	margin: 1% auto;
+	width: 37%;
+}
+
+h4 {
+	color:#292929;
+	font-family: 'Source Serif Pro', serif;
 	text-transform: uppercase;
+	font-weight: bold;
+	margin: 1% auto;
+	width: 37%;
+}
+
+h5 {
+	font-family: 'Source Serif Pro', serif;
+	color:#292929;
 	margin: 1% auto;
 	width: 37%;
 }
@@ -74,7 +89,7 @@ a:link, a:visited {
 
 .main-container a:hover {
 	color: #ffc100;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .main-container span a:hover {
@@ -85,9 +100,8 @@ a:link, a:visited {
 	font-size: 21px;
 }
 
-.mobilenav li a,
-.headline {
-	font-family: 'Bitter', serif;
+.mobilenav li a {
+	font-family: 'Source Serif Pro', serif;
 	letter-spacing: 1px;
 }
 
@@ -117,7 +131,6 @@ em {
 	max-width: 100%;
 	width: 100%;
 	display: block;
-	margin: 0 auto;
 }
 
 .gallery-here ul {
@@ -130,15 +143,14 @@ em {
 	text-align: center;
 }
 
-.gallery-here > ul > div {
+.gallery-here > ul > a {
 	display: inline-block;
 	width: 350px;
 	margin: 1% 2%;
 }
 
-.item-hover .headline:hover,
-.item-hover .date:hover {
-	text-decoration: none;
+.quick-intro {
+    font-size: 17px;
 }
 
 /* make keyframes that tell the start state and the end state of our object */
@@ -197,7 +209,6 @@ animation-delay: 1.2s;
 animation-delay: 2s;
 }
 
-/*
 .hvr-float {
 	-webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -217,7 +228,6 @@ animation-delay: 2s;
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
 }
-*/
 
 .gallery-here ul li {
 	width: 100%;
@@ -265,6 +275,10 @@ animation-delay: 2s;
 	cursor: default;
 }
 
+.mobile {
+	display: none;
+}
+
 /*---- Impossibility ----*/
 
 .gallery-here.impossibility .portfolio {
@@ -290,6 +304,11 @@ animation-delay: 2s;
 
 .gallery-here.impossibility .portfolio.ipad {
 	max-width: 65%;
+	display: block;
+	margin: 0 auto;
+}
+
+.block {
 	display: block;
 	margin: 0 auto;
 }
@@ -397,6 +416,10 @@ animation-delay: 2s;
 		width: 870px;
 		margin: 7% auto 3%;
 	}
+
+    .quick-intro {
+        font-size: 15px;
+    }
 	
 	.welcome.virtuo {
 		margin: 7% auto 4%;
@@ -474,6 +497,10 @@ animation-delay: 2s;
 	.welcome > h1 {
 		text-align: center;
 	}
+
+    .quick-intro {
+        font-size: 14px;
+    }
 	
 	h2, h3, h4, h5 {
 		margin: 0 auto 1%;
@@ -613,6 +640,10 @@ animation-delay: 2s;
 		width: 75%;
 		margin: 18% 4% 10% 14%;
 	}
+
+    .quick-intro {
+        font-size: 13px;
+    }
 	
 	.welcome.motor {
 		margin: 9% auto;
@@ -707,6 +738,10 @@ animation-delay: 2s;
 		display: block;
 		margin: 0 auto;
 	}
+
+    .quick-intro {
+        font-size: 14px;
+    }
 	
 	.main-container.thesis {
 		margin-bottom: 7%;
@@ -736,7 +771,7 @@ animation-delay: 2s;
 	.gallery-here {
 		display: block;
 		width: 100%;
-		margin: 0 auto 3%;
+		margin: 0 auto 8%;
 		text-align: center;
 	}
 	
@@ -790,5 +825,9 @@ animation-delay: 2s;
 		font-size: 15px;
 		font-weight: normal;
 		letter-spacing: 1.5px;
+	}
+	
+	.mobile {
+		display: block;
 	}
 }
