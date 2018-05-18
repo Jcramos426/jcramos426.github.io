@@ -19,7 +19,7 @@ body {
 	font-family:Source Sans Pro;
 	font-weight: 400;
 	color: #333;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 1.6;
 	overflow: visible;
 }
@@ -47,7 +47,6 @@ h2 {
 }
 
 h3 {
-	font-family: 'Source Serif Pro', serif;
 	font-size: 14px;
 	color:#292929;
 	text-align: left;
@@ -57,7 +56,6 @@ h3 {
 
 h4 {
 	color:#292929;
-	font-family: 'Source Serif Pro', serif;
 	text-transform: uppercase;
 	font-weight: bold;
 	margin: 1% auto;
@@ -65,7 +63,6 @@ h4 {
 }
 
 h5 {
-	font-family: 'Source Serif Pro', serif;
 	color:#292929;
 	margin: 1% auto;
 	width: 37%;
@@ -146,10 +143,6 @@ em {
 	display: inline-block;
 	width: 350px;
 	margin: 1% 2%;
-}
-
-.quick-intro {
-    font-size: 17px;
 }
 
 /* make keyframes that tell the start state and the end state of our object */
