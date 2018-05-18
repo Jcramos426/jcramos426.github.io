@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
 	font-size: 40px;
-	color: #ffc100;
+	color: #00B7BF;
 }
 
 h2 {
@@ -80,14 +80,15 @@ h5 {
 }
 
 a:link, a:visited {
-	color: #19D1FF;
+	color: #00B7BF;
+    font-weight: 700;
 	text-decoration: none;
 	display: inline-block;
 	outline:none;
 }
 
 .main-container a:hover {
-	color: #ffc100;
+	color: #0098A8;
 	text-decoration: underline;
 }
 
