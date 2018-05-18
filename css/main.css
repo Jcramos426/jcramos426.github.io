@@ -31,7 +31,6 @@ body {
 
 h1, h2, h3, h4, h5 {
 	font-family: 'Source Serif Pro', serif;
-	letter-spacing: 1px;
 }
 
 h1 {
@@ -102,7 +101,6 @@ a:link, a:visited {
 
 .mobilenav li a {
 	font-family: 'Source Serif Pro', serif;
-	letter-spacing: 1px;
 }
 
 .mobilenav li a:hover {
@@ -824,7 +822,6 @@ animation-delay: 2s;
 		margin: 2% auto;
 		font-size: 15px;
 		font-weight: normal;
-		letter-spacing: 1.5px;
 	}
 	
 	.mobile {
