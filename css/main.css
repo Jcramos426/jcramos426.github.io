@@ -75,7 +75,7 @@ h5 {
 
 .home-icon {
 	position: fixed;
-	top: 13px;
+	top: 10px;
 	left: 58px;
 	font-size: 23px;
 	z-index: 100;
@@ -760,7 +760,7 @@ animation-delay: 2s;
 	}
 	
 	.home-icon {
-		top:18px;
+		top:14px;
 		left: 70px;
 	}
 	
@@ -778,6 +778,7 @@ animation-delay: 2s;
 	
 	.welcome > h1 {
 		font-size: 24px;
+        margin-top: 20%;
 	}
 	
 	.gallery-here {
