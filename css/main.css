@@ -29,7 +29,7 @@ body {
 	margin: 5% 0 0;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h4, h5 {
 	font-family: 'Source Serif Pro', serif;
 }
 
@@ -47,7 +47,11 @@ h2 {
 }
 
 h3 {
-	font-size: 14px;
+	font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 	color:#292929;
 	text-align: left;
 	margin: 1% auto;
@@ -269,6 +273,13 @@ animation-delay: 2s;
 
 .mobile {
 	display: none;
+}
+
+/*---- Ascent ----*/
+
+.center {
+	text-align: center;
+    margin-bottom: 0;
 }
 
 /*---- Impossibility ----*/
@@ -814,8 +825,8 @@ animation-delay: 2s;
 	h3, h4, h5 {
 		width: 100%;
 		margin: 2% auto;
-		font-size: 15px;
-		font-weight: normal;
+		font-size: 16px;
+		font-weight: 700;
 	}
 	
 	.mobile {
