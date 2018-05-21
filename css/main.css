@@ -363,6 +363,7 @@ animation-delay: 2s;
 
 .about-img {
 	width: 90%;
+    margin-top: 10%;
     border: 1px solid gray;
 }
 
@@ -801,6 +802,12 @@ animation-delay: 2s;
 	.welcome.about p {
 		margin: 5% 8% 0;
 	}
+    
+    .about-img {
+	width: 90%;
+    margin-top: 20%;
+    border: 1px solid gray;
+}
 	
 	.portfolio {
 		max-width: 85%;
