@@ -111,7 +111,7 @@ a:link, a:visited {
 }
 
 li {
-	list-style: none;
+	list-style-type: none;
 }
 
 em {
@@ -261,7 +261,31 @@ animation-delay: 2s;
 	margin-bottom: 10%;
 }
 
+.more-top {
+    margin-top: 40px;
+}
+
 /*------=============== Portfolio ===============-------*/
+
+.jump ul {
+    margin: 0 auto 30px;
+    padding: 0;
+    text-align: center;
+    list-style-type: circle;
+}
+
+.jump a, .jump li {
+    text-align: left;
+    display: inline-block;
+}
+
+.jump li {
+    color: gray;
+}
+
+.jump ul li {
+    margin-right: 3px;
+}
 
 .portfolio {
 	max-width: 60%;
