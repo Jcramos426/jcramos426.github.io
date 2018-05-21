@@ -353,8 +353,9 @@ animation-delay: 2s;
 
 /*---------========== About ===========----------*/
 
-.about-image > img {
-	width: 92%;
+.about-img {
+	width: 90%;
+    border: 1px solid gray;
 }
 
 .welcome.about h1 {
