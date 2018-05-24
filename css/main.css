@@ -55,7 +55,7 @@ h3 {
     letter-spacing: 1px;
 	color:#292929;
 	text-align: left;
-	margin: 1% auto;
+	margin: 5% auto 0;
 	width: 37%;
 }
 
@@ -439,7 +439,7 @@ animation-delay: 2s;
 	
 	.welcome {
 		width: 870px;
-		margin: 7% auto 3%;
+		margin: 7% auto 1%;
 	}
 
     .quick-intro {
@@ -515,7 +515,7 @@ animation-delay: 2s;
 		display: block;
 		text-align: center;
 		max-width: 100%;
-		margin: 10% auto 5%;
+		margin: 10% auto 2%;
 		width: 80%;
 	}
 
