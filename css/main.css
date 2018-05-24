@@ -764,7 +764,7 @@ animation-delay: 2s;
 	.welcome {
 		display: block;
 		width: 87%;
-		margin: 15% auto 10%;
+		margin: 15% auto 4%;
 	}
 	
 	.welcome.about {
@@ -775,7 +775,7 @@ animation-delay: 2s;
 	
 	.welcome > h1 {
 		font-size: 24px;
-        margin-top: 20%;
+        margin-bottom: 5%
 	}
 	
 	.gallery-here {
@@ -830,14 +830,14 @@ animation-delay: 2s;
 	
 	h2 {
 		width: 100%;
-		margin: 2% auto;
+		margin: 5% auto 0;
 		text-align: left;
 		font-size: 18px;
 	}
 
 	h3, h4, h5 {
 		width: 100%;
-		margin: 2% auto;
+		margin: 6% auto 0;
 		font-size: 16px;
 		font-weight: 700;
 	}
