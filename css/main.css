@@ -263,7 +263,6 @@ animation-delay: 2s;
     margin: 0 auto 30px;
     padding: 0;
     text-align: center;
-    list-style-type: circle;
 }
 
 .jump a, .jump li {
@@ -297,6 +296,12 @@ animation-delay: 2s;
 
 .mobile {
 	display: none;
+}
+
+.to-top {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
 }
 
 /*---- Ascent ----*/
