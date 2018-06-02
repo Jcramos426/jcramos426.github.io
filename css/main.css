@@ -274,6 +274,13 @@ footer {
     padding: 2% 2% 1% 2%;
 }
 
+footer hr {
+    height:1px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+}
+
 .social-links {
     float: right;
     max-width: 500px;
