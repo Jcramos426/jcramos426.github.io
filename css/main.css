@@ -270,6 +270,30 @@ animation-delay: 2s;
 	vertical-align: top;
 }
 
+footer {
+    padding: 2% 2% 1% 2%;
+}
+
+.social-links {
+    float: right;
+    max-width: 500px;
+    padding: 4px 0;
+}
+
+.social-links a {
+    display: inline;
+    margin: 0 6px;
+}
+
+.social img {
+    width: 20px;
+}
+
+.twitter img {
+    width: 28px;
+    margin: -4px -2px;
+}
+
 /*------=============== Portfolio ===============-------*/
 
 .jump ul {
@@ -869,4 +893,8 @@ animation-delay: 2s;
 	.mobile {
 		display: block;
 	}
+    
+    .social-links {
+        display: none;
+    }
 }
