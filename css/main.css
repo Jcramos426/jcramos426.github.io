@@ -111,6 +111,10 @@ a:link, a:visited {
 	text-decoration: none;
 }
 
+.to-top.center span a:hover {
+    text-decoration: underline;
+}
+
 .content-here > h1 {
 	font-size: 21px;
 }
