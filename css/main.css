@@ -55,8 +55,9 @@ h3 {
     letter-spacing: 1px;
 	color:#292929;
 	text-align: left;
-	margin: 5% auto 0;
+	margin: 0 auto;
 	width: 37%;
+    padding: 10px 0 0;
 }
 
 h4 {
@@ -867,6 +868,14 @@ footer hr {
 	.portfolio {
 		max-width: 85%;
 	}
+    
+    h3 {
+        padding: 75px 0 0;
+    }
+    
+    .solution {
+        padding: 10px 0 0;
+    }
 	
 	.motorhouse a .portfolio {
 		max-width: 75%;
